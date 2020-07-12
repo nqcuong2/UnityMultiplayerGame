@@ -12,11 +12,13 @@ namespace GameServer
 
         public int id;
         public TCP tcp;
+        public UDP udp;
 
         public Client(int clientID)
         {
             id = clientID;
             tcp = new TCP(id);
+            udp = new UDP(id);
         }
 
         public class TCP
@@ -132,6 +134,67 @@ namespace GameServer
                 }
 
                 return false;
+            }
+        }
+
+        public class UDP
+        {
+            public IPEndPoint endPoint;
+
+            private int id;
+
+            public UDP(int id)
+            {
+                this.id = id;
+            }
+
+            public void Connect(IPEndPoint endPoint)
+            {
+                this.endPoint = endPoint;
+            }
+
+            public void SendData(Packet packet)
+            {
+                Server.SendUDPData(endPoint, packet);
+            }
+
+            public void HandleData(Packet packetData)
+            {
+                int packetLength = packetData.ReadInt();
+                byte[] packetBytes = packetData.ReadBytes(packetLength);
+
+                ThreadManager.ExecuteOnMainThread(() =>
+                {
+                    using (Packet packet = new Packet(packetBytes))
+                    {
+                        int packetId = packet.ReadInt();
+                        Server.packetHandlers[packetId](id, packet);
+                    }
+                });
+            }
+        }
+
+        public void SendIntoGame(string playerName)
+        {
+            player = new Player(id, playerName, Vector3.Zero);
+
+            foreach (Client client in Server.clients.Values)
+            {
+                if (client.player != null)
+                {
+                    if (client.id != id)
+                    {
+                        ServerSend.SpawnPlayer(id, client.player);
+                    }
+                }
+            }
+
+            foreach (Client client in Server.clients.Values)
+            {
+                if (client.player != null)
+                {
+                    ServerSend.SpawnPlayer(client.id, player);
+                }
             }
         }
     }

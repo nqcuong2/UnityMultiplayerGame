@@ -17,6 +17,7 @@ namespace GameServer
         public static Dictionary<int, PacketHandler> packetHandlers;
 
         private static TcpListener tcpListener;
+        private static UdpClient udpListener;
 
         public static void Start(int maxPlayers, int port)
         {
@@ -30,7 +31,24 @@ namespace GameServer
             tcpListener.Start();
             tcpListener.BeginAcceptTcpClient(TCPConnectCallback, null);
 
+            udpListener = new UdpClient(Port);
+            udpListener.BeginReceive(UDPReceiveCallback, null);
+
             Console.WriteLine($"Server started on port {Port}.");
+        }
+
+        private static void InitializeServerData()
+        {
+            for (int i = 1; i <= MaxPlayers; i++)
+            {
+                clients.Add(i, new Client(i));
+            }
+
+            packetHandlers = new Dictionary<int, PacketHandler>()
+            {
+                { (int)ClientPackets.WelcomeReceived, ServerHandle.WelcomeReceived },
+            };
+            Console.WriteLine("Initialized packets");
         }
 
         private static void TCPConnectCallback(IAsyncResult result)
@@ -51,18 +69,63 @@ namespace GameServer
             Console.WriteLine($"{client.Client.RemoteEndPoint} failed to connect: Server full!");
         }
 
-        private static void InitializeServerData()
+        private static void UDPReceiveCallback(IAsyncResult result)
         {
-            for (int i = 1; i <= MaxPlayers; i++)
+            try
             {
-                clients.Add(i, new Client(i));
-            }
+                IPEndPoint clientEndPoint = new IPEndPoint(IPAddress.Any, 0);
+                byte[] data = udpListener.EndReceive(result, ref clientEndPoint);
+                udpListener.BeginReceive(UDPReceiveCallback, null);
 
-            packetHandlers = new Dictionary<int, PacketHandler>()
+                if (data.Length < 4)
+                {
+                    return;
+                }
+
+                using (Packet packet = new Packet(data))
+                {
+                    int clientId = packet.ReadInt();
+
+                    // Should never happen because the client id doesn't exist and server will crash
+                    // when trying to receive data from this id
+                    if (clientId == 0)
+                    {
+                        return;
+                    }
+
+                    // This is a new connection and the packet we received should just be the empty
+                    // one that opens up the client port
+                    if (clients[clientId].udp.endPoint == null)
+                    {
+                        clients[clientId].udp.Connect(clientEndPoint);
+                        return;
+                    }
+
+                    if (clients[clientId].udp.endPoint.ToString() == clientEndPoint.ToString())
+                    {
+                        clients[clientId].udp.HandleData(packet);
+                    }
+                }
+            }
+            catch (Exception e)
             {
-                { (int)ClientPackets.WelcomeReceived, ServerHandle.WelcomeReceived }
-            };
-            Console.WriteLine("Initialized packets");
+                Console.WriteLine($"Error receiving UDP data: {e}");
+            }
+        }
+
+        public static void SendUDPData(IPEndPoint clientEndPoint, Packet packet)
+        {
+            try
+            {
+                if (clientEndPoint != null)
+                {
+                    udpListener.BeginSend(packet.ToArray(), packet.Length(), clientEndPoint, null, null);
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine($"Error sending data to {clientEndPoint} via UDP: {e}");
+            }
         }
     }
 }
