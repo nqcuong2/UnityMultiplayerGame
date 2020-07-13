@@ -6,6 +6,7 @@ namespace GameServer
 {
     class ServerSend
     {
+        #region Packets
         public static void Welcome(int toClient, string msg)
         {
             using (Packet packet = new Packet((int)ServerPackets.Welcome))
@@ -16,7 +17,43 @@ namespace GameServer
                 SendTCPData(toClient, packet);
             }
         }
-        
+
+        public static void SpawnPlayer(int toClient, Player player)
+        {
+            using (Packet packet = new Packet((int)ServerPackets.SpawnPlayer))
+            {
+                packet.Write(player.id);
+                packet.Write(player.username);
+                packet.Write(player.position);
+                packet.Write(player.rotation);
+
+                SendTCPData(toClient, packet);
+            }
+        }
+
+        public static void PlayerPosition(Player player)
+        {
+            using (Packet packet = new Packet((int)ServerPackets.PlayerPosition))
+            {
+                packet.Write(player.id);
+                packet.Write(player.position);
+
+                SendUDPDataToAll(packet);
+            }
+        }
+
+        public static void PlayerRotation(Player player)
+        {
+            using (Packet packet = new Packet((int)ServerPackets.PlayerRotation))
+            {
+                packet.Write(player.id);
+                packet.Write(player.rotation);
+
+                SendUDPDataToAllExcept(player.id, packet);
+            }
+        }
+        #endregion
+
         #region TCP
         private static void SendTCPData(int toClient, Packet packet)
         {
