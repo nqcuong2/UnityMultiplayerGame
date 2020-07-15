@@ -16,6 +16,7 @@ public class Client : MonoBehaviour
     public TCP tcp;
     public UDP udp;
 
+    private bool isConnected;
     private delegate void PacketHandler(Packet packet);
     private static Dictionary<int, PacketHandler> packetHandlers;
 
@@ -38,10 +39,28 @@ public class Client : MonoBehaviour
         udp = new UDP();
     }
 
+    private void OnApplicationQuit()
+    {
+        Disconnect();
+    }
+
+    private void Disconnect()
+    {
+        if (isConnected)
+        {
+            isConnected = false;
+            tcp.socket.Close();
+            udp.socket.Close();
+
+            Debug.Log("Disconnected from server.");
+        }
+    }
+
     public void ConnectToServer()
     {
         InitializeClientData();
 
+        isConnected = true;
         tcp.Connect();
     }
 
@@ -100,7 +119,7 @@ public class Client : MonoBehaviour
                 int byteLength = stream.EndRead(result);
                 if (byteLength <= 0)
                 {
-                    // TODO: disconnect
+                    Instance.Disconnect();
                     return;
                 }
 
@@ -112,8 +131,18 @@ public class Client : MonoBehaviour
             }
             catch
             {
-                // TODO: disconnect
+                Disconnect();
             }
+        }
+
+        private void Disconnect()
+        {
+            Instance.Disconnect();
+
+            stream = null;
+            receivedData = null;
+            receiveBuffer = null;
+            socket = null;
         }
 
         private bool HandleData(byte[] data)
@@ -211,7 +240,7 @@ public class Client : MonoBehaviour
 
                 if (data.Length < 4)
                 {
-                    // TODO: disconnect
+                    Instance.Disconnect();
                     return;
                 }
 
@@ -219,8 +248,16 @@ public class Client : MonoBehaviour
             }
             catch
             {
-                // TODO: disconnect
+                Disconnect();
             }
+        }
+
+        private void Disconnect()
+        {
+            Instance.Disconnect();
+
+            endPoint = null;
+            socket = null;
         }
 
         private void HandleData(byte[] data)

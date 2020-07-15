@@ -21,6 +21,39 @@ namespace GameServer
             udp = new UDP(id);
         }
 
+        public void SendIntoGame(string playerName)
+        {
+            player = new Player(id, playerName, Vector3.Zero);
+
+            foreach (Client client in Server.clients.Values)
+            {
+                if (client.player != null)
+                {
+                    if (client.id != id)
+                    {
+                        ServerSend.SpawnPlayer(id, client.player);
+                    }
+                }
+            }
+
+            foreach (Client client in Server.clients.Values)
+            {
+                if (client.player != null)
+                {
+                    ServerSend.SpawnPlayer(client.id, player);
+                }
+            }
+        }
+
+        private void Disconnect()
+        {
+            Console.WriteLine($"{tcp.socket.Client.RemoteEndPoint} has disconnected.");
+
+            player = null;
+            tcp.Disconnect();
+            udp.Disconnect();
+        }
+
         public class TCP
         {
             public TcpClient socket;
@@ -73,7 +106,7 @@ namespace GameServer
                     int byteLength = stream.EndRead(result);
                     if (byteLength <= 0)
                     {
-                        // TODO: disconnect
+                        Server.clients[id].Disconnect();
                         return;
                     }
 
@@ -86,7 +119,7 @@ namespace GameServer
                 catch (Exception e)
                 {
                     Console.WriteLine($"Error receiving TCP data: {e}");
-                    // TODO: disconnect
+                    Server.clients[id].Disconnect();
                 }
             }
 
@@ -135,6 +168,15 @@ namespace GameServer
 
                 return false;
             }
+
+            public void Disconnect()
+            {
+                socket.Close();
+                stream = null;
+                receivedData = null;
+                receiveBuffer = null;
+                socket = null;
+            }
         }
 
         public class UDP
@@ -172,29 +214,10 @@ namespace GameServer
                     }
                 });
             }
-        }
 
-        public void SendIntoGame(string playerName)
-        {
-            player = new Player(id, playerName, Vector3.Zero);
-
-            foreach (Client client in Server.clients.Values)
+            public void Disconnect()
             {
-                if (client.player != null)
-                {
-                    if (client.id != id)
-                    {
-                        ServerSend.SpawnPlayer(id, client.player);
-                    }
-                }
-            }
-
-            foreach (Client client in Server.clients.Values)
-            {
-                if (client.player != null)
-                {
-                    ServerSend.SpawnPlayer(client.id, player);
-                }
+                endPoint = null;
             }
         }
     }
