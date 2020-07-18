@@ -125,4 +125,10 @@ public class Server
             Debug.Log($"Error sending data to {clientEndPoint} via UDP: {e}");
         }
     }
+
+    public static void Stop()
+    {
+        tcpListener.Stop();
+        udpListener.Close();
+    }
 }
