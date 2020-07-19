@@ -4,16 +4,27 @@ public class Player : MonoBehaviour
 {
     public int id;
     public string username;
+    public CharacterController controller;
+    public float gravity = -9.81f;
+    public float moveSpeed = 5f;
+    public float jumpSpeed = 5f;
 
-    private float moveSpeed = 5f / Constants.TICKS_PER_SEC;
     private bool[] inputs;
+    private float yVelocity = 0;
+
+    private void Start()
+    {
+        gravity *= Time.fixedDeltaTime * Time.fixedDeltaTime;
+        moveSpeed *= Time.fixedDeltaTime;
+        jumpSpeed *= Time.fixedDeltaTime;
+    }
 
     public void Initialize(int id, string username)
     {
         this.id = id;
         this.username = username;
 
-        inputs = new bool[4];
+        inputs = new bool[5];
     }
 
     public void SetInput(bool[] inputs, Quaternion rotation)
@@ -47,8 +58,21 @@ public class Player : MonoBehaviour
 
     private void Move(Vector2 inputDir)
     {
-        Vector3 moveDir = transform.right * inputDir.x + transform.forward * inputDir.y;
-        transform.position += moveDir * moveSpeed;
+        Vector3 moveDirection = transform.right * inputDir.x + transform.forward * inputDir.y;
+        moveDirection *= moveSpeed;
+
+        if (controller.isGrounded)
+        {
+            yVelocity = 0f;
+            if (inputs[4])
+            {
+                yVelocity += jumpSpeed;
+            }
+        }
+        yVelocity += gravity;
+
+        moveDirection.y = yVelocity;
+        controller.Move(moveDirection);
 
         ServerSend.PlayerPosition(this);
         ServerSend.PlayerRotation(this);
