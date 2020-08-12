@@ -9,6 +9,7 @@ public class UIManager : MonoBehaviour
 
     public GameObject startMenu;
     public InputField usernameField;
+    public GameObject chatContent;
 
     private void Awake()
     {
