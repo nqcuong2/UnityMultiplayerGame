@@ -4,19 +4,18 @@ public class Player : MonoBehaviour
 {
     public int id;
     public string username;
-    public CharacterController controller;
-    public float gravity = -9.81f;
-    public float moveSpeed = 5f;
-    public float jumpSpeed = 5f;
+    public float moveSpeed = 2f;
+    private Rigidbody2D rb2D;
 
     private bool[] inputs;
-    private float yVelocity = 0;
+
+    private void Awake()
+    {
+        rb2D = GetComponent<Rigidbody2D>();
+    }
 
     private void Start()
     {
-        gravity *= Time.fixedDeltaTime * Time.fixedDeltaTime;
-        moveSpeed *= Time.fixedDeltaTime;
-        jumpSpeed *= Time.fixedDeltaTime;
     }
 
     public void Initialize(int id, string username)
@@ -27,10 +26,9 @@ public class Player : MonoBehaviour
         inputs = new bool[5];
     }
 
-    public void SetInput(bool[] inputs, Quaternion rotation)
+    public void SetInput(bool[] inputs)
     {
         this.inputs = inputs;
-        transform.rotation = rotation;
     }
 
     public void FixedUpdate()
@@ -40,15 +38,15 @@ public class Player : MonoBehaviour
         {
             inputDir.y += 1;
         }
-        if (inputs[1])
+        else if (inputs[1])
         {
             inputDir.y -= 1;
         }
-        if (inputs[2])
+        else if (inputs[2])
         {
             inputDir.x -= 1;
         }
-        if (inputs[3])
+        else if (inputs[3])
         {
             inputDir.x += 1;
         }
@@ -58,23 +56,7 @@ public class Player : MonoBehaviour
 
     private void Move(Vector2 inputDir)
     {
-        Vector3 moveDirection = transform.right * inputDir.x + transform.forward * inputDir.y;
-        moveDirection *= moveSpeed;
-
-        if (controller.isGrounded)
-        {
-            yVelocity = 0f;
-            if (inputs[4])
-            {
-                yVelocity += jumpSpeed;
-            }
-        }
-        yVelocity += gravity;
-
-        moveDirection.y = yVelocity;
-        controller.Move(moveDirection);
-
+        rb2D.velocity = new Vector3(inputDir.x * moveSpeed, inputDir.y * moveSpeed);
         ServerSend.PlayerPosition(this);
-        ServerSend.PlayerRotation(this);
     }
 }

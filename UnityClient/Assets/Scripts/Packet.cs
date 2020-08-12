@@ -8,7 +8,6 @@ public enum ServerPackets
     Welcome = 1,
     SpawnPlayer,
     PlayerPosition,
-    PlayerRotation
 }
 
 public enum ClientPackets
@@ -297,11 +296,6 @@ public class Packet : IDisposable
     public Vector3 ReadVector3(bool moveReadPos = true)
     {
         return new Vector3(ReadFloat(moveReadPos), ReadFloat(moveReadPos), ReadFloat(moveReadPos));
-    }
-
-    public Quaternion ReadQuaternion(bool moveReadPos = true)
-    {
-        return new Quaternion(ReadFloat(moveReadPos), ReadFloat(moveReadPos), ReadFloat(moveReadPos), ReadFloat(moveReadPos));
     }
     #endregion
 

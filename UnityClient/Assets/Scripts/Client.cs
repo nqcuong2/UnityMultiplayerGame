@@ -52,6 +52,7 @@ public class Client : MonoBehaviour
             tcp.socket.Close();
             udp.socket.Close();
 
+            GameManager.Instance.Disconnect();
             Debug.Log("Disconnected from server.");
         }
     }
@@ -71,7 +72,6 @@ public class Client : MonoBehaviour
             { (int)ServerPackets.Welcome, ClientHandle.Welcome },
             { (int)ServerPackets.SpawnPlayer, ClientHandle.SpawnPlayer },
             { (int)ServerPackets.PlayerPosition, ClientHandle.PlayerPosition },
-            { (int)ServerPackets.PlayerRotation, ClientHandle.PlayerRotation },
         };
         Debug.Log("Initialized packets.");
     }

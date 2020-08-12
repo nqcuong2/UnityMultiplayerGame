@@ -1,0 +1,1208 @@
+fileFormatVersion: 2
+guid: 77b29969bc9a8f04180608cd629ce8d8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3682479562662581006
+    second: SNES - Super Bomberman - Bomberman_0
+  - first:
+      213: 5650118736070643385
+    second: SNES - Super Bomberman - Bomberman_1
+  - first:
+      213: 2242757266854101772
+    second: SNES - Super Bomberman - Bomberman_2
+  - first:
+      213: 3861784107772650824
+    second: SNES - Super Bomberman - Bomberman_3
+  - first:
+      213: -6695985357228612845
+    second: SNES - Super Bomberman - Bomberman_4
+  - first:
+      213: 8732007212451847913
+    second: SNES - Super Bomberman - Bomberman_5
+  - first:
+      213: -1917237604176355108
+    second: SNES - Super Bomberman - Bomberman_6
+  - first:
+      213: -7360004147330966780
+    second: SNES - Super Bomberman - Bomberman_7
+  - first:
+      213: 4551956862478720530
+    second: SNES - Super Bomberman - Bomberman_8
+  - first:
+      213: 6266618982155807566
+    second: SNES - Super Bomberman - Bomberman_9
+  - first:
+      213: 7340295376969702348
+    second: SNES - Super Bomberman - Bomberman_10
+  - first:
+      213: 4539677627946732489
+    second: SNES - Super Bomberman - Bomberman_11
+  - first:
+      213: -6675989273413521083
+    second: SNES - Super Bomberman - Bomberman_12
+  - first:
+      213: -8436504979602070334
+    second: SNES - Super Bomberman - Bomberman_13
+  - first:
+      213: 4325623443790299399
+    second: SNES - Super Bomberman - Bomberman_14
+  - first:
+      213: 6567811505053789007
+    second: SNES - Super Bomberman - Bomberman_15
+  - first:
+      213: -3917475781309411747
+    second: SNES - Super Bomberman - Bomberman_16
+  - first:
+      213: 8260250519358943290
+    second: SNES - Super Bomberman - Bomberman_17
+  - first:
+      213: -7884746132872233312
+    second: SNES - Super Bomberman - Bomberman_18
+  - first:
+      213: -1671663972746296422
+    second: SNES - Super Bomberman - Bomberman_19
+  - first:
+      213: -2107180602615592530
+    second: SNES - Super Bomberman - Bomberman_20
+  - first:
+      213: -1853573706572088415
+    second: SNES - Super Bomberman - Bomberman_21
+  - first:
+      213: 8972787060743762089
+    second: SNES - Super Bomberman - Bomberman_22
+  - first:
+      213: -4999785656161629113
+    second: SNES - Super Bomberman - Bomberman_23
+  - first:
+      213: -4823554188711534740
+    second: SNES - Super Bomberman - Bomberman_24
+  - first:
+      213: -426870308795103772
+    second: SNES - Super Bomberman - Bomberman_25
+  - first:
+      213: 1384515639093553698
+    second: SNES - Super Bomberman - Bomberman_26
+  - first:
+      213: -877476883497417121
+    second: SNES - Super Bomberman - Bomberman_27
+  - first:
+      213: 1332016356110190488
+    second: SNES - Super Bomberman - Bomberman_28
+  - first:
+      213: -4842197566927876051
+    second: SNES - Super Bomberman - Bomberman_29
+  - first:
+      213: 3250373896874830213
+    second: SNES - Super Bomberman - Bomberman_30
+  - first:
+      213: -2593458990976378256
+    second: SNES - Super Bomberman - Bomberman_31
+  - first:
+      213: 9020286493329175477
+    second: SNES - Super Bomberman - Bomberman_32
+  - first:
+      213: -3273663722182883145
+    second: SNES - Super Bomberman - Bomberman_33
+  - first:
+      213: 7952243818292800881
+    second: SNES - Super Bomberman - Bomberman_34
+  - first:
+      213: -7921872823262657291
+    second: SNES - Super Bomberman - Bomberman_35
+  - first:
+      213: -4121230389144966088
+    second: SNES - Super Bomberman - Bomberman_36
+  - first:
+      213: 8196659709289591194
+    second: SNES - Super Bomberman - Bomberman_37
+  - first:
+      213: -3761590316599929392
+    second: SNES - Super Bomberman - Bomberman_38
+  - first:
+      213: 7306635961186613040
+    second: SNES - Super Bomberman - Bomberman_39
+  - first:
+      213: 6152207035181626566
+    second: SNES - Super Bomberman - Bomberman_40
+  - first:
+      213: 4547913132428941878
+    second: SNES - Super Bomberman - Bomberman_41
+  - first:
+      213: -7324884006708466569
+    second: SNES - Super Bomberman - Bomberman_42
+  - first:
+      213: 228051204128710476
+    second: SNES - Super Bomberman - Bomberman_43
+  - first:
+      213: 1387559508456267261
+    second: SNES - Super Bomberman - Bomberman_44
+  - first:
+      213: 1977114466270872849
+    second: SNES - Super Bomberman - Bomberman_45
+  - first:
+      213: -1268412273863902213
+    second: SNES - Super Bomberman - Bomberman_46
+  - first:
+      213: 18022256344077020
+    second: SNES - Super Bomberman - Bomberman_47
+  - first:
+      213: 4212490837760995529
+    second: SNES - Super Bomberman - Bomberman_48
+  - first:
+      213: 338883914421335992
+    second: SNES - Super Bomberman - Bomberman_49
+  - first:
+      213: 7946291157700986589
+    second: SNES - Super Bomberman - Bomberman_50
+  - first:
+      213: -4281328150606424846
+    second: SNES - Super Bomberman - Bomberman_51
+  - first:
+      213: -2704206922305023305
+    second: SNES - Super Bomberman - Bomberman_52
+  - first:
+      213: 185205897755734303
+    second: SNES - Super Bomberman - Bomberman_53
+  - first:
+      213: -5669447987587482363
+    second: SNES - Super Bomberman - Bomberman_54
+  - first:
+      213: -4598822663150960758
+    second: SNES - Super Bomberman - Bomberman_55
+  - first:
+      213: 4641790398257175166
+    second: SNES - Super Bomberman - Bomberman_56
+  - first:
+      213: 6964919144916357499
+    second: SNES - Super Bomberman - Bomberman_57
+  - first:
+      213: -1558945956797057557
+    second: SNES - Super Bomberman - Bomberman_58
+  - first:
+      213: -193086085847685487
+    second: SNES - Super Bomberman - Bomberman_59
+  - first:
+      213: -7116611419805208113
+    second: SNES - Super Bomberman - Bomberman_60
+  - first:
+      213: -5076451714150361575
+    second: SNES - Super Bomberman - Bomberman_61
+  - first:
+      213: 5318862199210088291
+    second: SNES - Super Bomberman - Bomberman_62
+  - first:
+      213: 4390602655849537998
+    second: SNES - Super Bomberman - Bomberman_63
+  - first:
+      213: 1993092613095746964
+    second: SNES - Super Bomberman - Bomberman_64
+  - first:
+      213: 6582227223486008797
+    second: SNES - Super Bomberman - Bomberman_65
+  - first:
+      213: -1773910839444559216
+    second: SNES - Super Bomberman - Bomberman_66
+  - first:
+      213: -3514940892945332383
+    second: SNES - Super Bomberman - Bomberman_67
+  - first:
+      213: 7423240166475399218
+    second: SNES - Super Bomberman - Bomberman_68
+  - first:
+      213: 6477681021747228711
+    second: SNES - Super Bomberman - Bomberman_69
+  - first:
+      213: 5916307515395102948
+    second: SNES - Super Bomberman - Bomberman_70
+  - first:
+      213: 9206469387943254121
+    second: SNES - Super Bomberman - Bomberman_71
+  - first:
+      213: 3846670484813441171
+    second: SNES - Super Bomberman - Bomberman_72
+  - first:
+      213: 724098358053415737
+    second: SNES - Super Bomberman - Bomberman_73
+  - first:
+      213: 5886023384927674011
+    second: SNES - Super Bomberman - Bomberman_74
+  - first:
+      213: -753194651053752758
+    second: SNES - Super Bomberman - Bomberman_75
+  - first:
+      213: -8584642837002423948
+    second: SNES - Super Bomberman - Bomberman_76
+  - first:
+      213: 2290202692282815883
+    second: SNES - Super Bomberman - Bomberman_77
+  - first:
+      213: -7508584407530960284
+    second: SNES - Super Bomberman - Bomberman_78
+  - first:
+      213: -186923096138393675
+    second: SNES - Super Bomberman - Bomberman_79
+  - first:
+      213: 5151372152590582715
+    second: SNES - Super Bomberman - Bomberman_80
+  - first:
+      213: 9194316973899886810
+    second: SNES - Super Bomberman - Bomberman_81
+  - first:
+      213: -2972363228709569210
+    second: SNES - Super Bomberman - Bomberman_82
+  - first:
+      213: 5647013009146255875
+    second: SNES - Super Bomberman - Bomberman_83
+  - first:
+      213: 7078591015972903454
+    second: SNES - Super Bomberman - Bomberman_84
+  - first:
+      213: -8953300950059298069
+    second: SNES - Super Bomberman - Bomberman_85
+  - first:
+      213: -3638740672186316898
+    second: SNES - Super Bomberman - Bomberman_86
+  - first:
+      213: 4526264091548696143
+    second: SNES - Super Bomberman - Bomberman_87
+  - first:
+      213: 3461849150302666253
+    second: SNES - Super Bomberman - Bomberman_88
+  - first:
+      213: 4270993637778233197
+    second: SNES - Super Bomberman - Bomberman_89
+  - first:
+      213: 7336643249958746795
+    second: SNES - Super Bomberman - Bomberman_90
+  - first:
+      213: 2242643072615102750
+    second: SNES - Super Bomberman - Bomberman_91
+  - first:
+      213: 2909157965073053702
+    second: SNES - Super Bomberman - Bomberman_92
+  - first:
+      213: -7680750828652036707
+    second: SNES - Super Bomberman - Bomberman_93
+  - first:
+      213: -2757536512743754007
+    second: SNES - Super Bomberman - Bomberman_94
+  - first:
+      213: -5470103602344428937
+    second: SNES - Super Bomberman - Bomberman_95
+  - first:
+      213: -4975537717454034553
+    second: SNES - Super Bomberman - Bomberman_96
+  - first:
+      213: 3989422347960746484
+    second: SNES - Super Bomberman - Bomberman_97
+  - first:
+      213: 6964831630848081343
+    second: SNES - Super Bomberman - Bomberman_98
+  - first:
+      213: 5895808578815925196
+    second: SNES - Super Bomberman - Bomberman_99
+  - first:
+      213: -8912846813792604013
+    second: SNES - Super Bomberman - Bomberman_100
+  - first:
+      213: 9161313558534377153
+    second: SNES - Super Bomberman - Bomberman_101
+  - first:
+      213: -3940310421764919735
+    second: SNES - Super Bomberman - Bomberman_102
+  - first:
+      213: 4759014379382124397
+    second: SNES - Super Bomberman - Bomberman_103
+  - first:
+      213: -6852338470258949978
+    second: SNES - Super Bomberman - Bomberman_104
+  - first:
+      213: 4671631881375697282
+    second: SNES - Super Bomberman - Bomberman_105
+  - first:
+      213: 7019281447059125224
+    second: SNES - Super Bomberman - Bomberman_106
+  - first:
+      213: -2389078544417744921
+    second: SNES - Super Bomberman - Bomberman_107
+  - first:
+      213: -6195861479194933984
+    second: SNES - Super Bomberman - Bomberman_108
+  - first:
+      213: -374455870105567956
+    second: SNES - Super Bomberman - Bomberman_109
+  - first:
+      213: 3228908617806563915
+    second: SNES - Super Bomberman - Bomberman_110
+  - first:
+      213: 1446579659453594431
+    second: SNES - Super Bomberman - Bomberman_111
+  - first:
+      213: 6287954454371222590
+    second: SNES - Super Bomberman - Bomberman_112
+  - first:
+      213: 8815174350957189219
+    second: SNES - Super Bomberman - Bomberman_113
+  - first:
+      213: 588626638672976620
+    second: SNES - Super Bomberman - Bomberman_114
+  - first:
+      213: 4405442659577853072
+    second: SNES - Super Bomberman - Bomberman_115
+  - first:
+      213: -9078746122272068799
+    second: SNES - Super Bomberman - Bomberman_116
+  - first:
+      213: 5813250503958328565
+    second: SNES - Super Bomberman - Bomberman_117
+  - first:
+      213: 7514781811570055491
+    second: SNES - Super Bomberman - Bomberman_118
+  - first:
+      213: -7090153589102869623
+    second: SNES - Super Bomberman - Bomberman_119
+  - first:
+      213: 6183848612352246404
+    second: SNES - Super Bomberman - Bomberman_120
+  - first:
+      213: 3364320112856413452
+    second: SNES - Super Bomberman - Bomberman_121
+  - first:
+      213: -180987549878812524
+    second: SNES - Super Bomberman - Bomberman_122
+  - first:
+      213: 8527262432267960207
+    second: SNES - Super Bomberman - Bomberman_123
+  - first:
+      213: -4764033151107840060
+    second: SNES - Super Bomberman - Bomberman_124
+  - first:
+      213: -3224769294440036672
+    second: SNES - Super Bomberman - Bomberman_125
+  - first:
+      213: -8629675582974007274
+    second: SNES - Super Bomberman - Bomberman_126
+  - first:
+      213: 8254710437310777278
+    second: SNES - Super Bomberman - Bomberman_127
+  - first:
+      213: 1122724905539182134
+    second: SNES - Super Bomberman - Bomberman_128
+  - first:
+      213: 6632194422024885389
+    second: SNES - Super Bomberman - Bomberman_129
+  - first:
+      213: 4948286073753466245
+    second: SNES - Super Bomberman - Bomberman_130
+  - first:
+      213: -6903969874217377931
+    second: SNES - Super Bomberman - Bomberman_131
+  - first:
+      213: 5980110786597172192
+    second: SNES - Super Bomberman - Bomberman_132
+  - first:
+      213: -1191022528891549601
+    second: SNES - Super Bomberman - Bomberman_133
+  - first:
+      213: -2386210588107470588
+    second: SNES - Super Bomberman - Bomberman_134
+  - first:
+      213: -2728102464699664010
+    second: SNES - Super Bomberman - Bomberman_135
+  - first:
+      213: -1589663665495969027
+    second: SNES - Super Bomberman - Bomberman_136
+  - first:
+      213: 6737221187056333755
+    second: SNES - Super Bomberman - Bomberman_137
+  - first:
+      213: 3492535789469620967
+    second: SNES - Super Bomberman - Bomberman_138
+  - first:
+      213: -8299854114548051410
+    second: SNES - Super Bomberman - Bomberman_139
+  - first:
+      213: -8107606155595784109
+    second: SNES - Super Bomberman - Bomberman_140
+  - first:
+      213: -2098057323389614985
+    second: SNES - Super Bomberman - Bomberman_141
+  - first:
+      213: -4385751448479086039
+    second: SNES - Super Bomberman - Bomberman_142
+  - first:
+      213: -1361696183949958931
+    second: SNES - Super Bomberman - Bomberman_143
+  - first:
+      213: 8431093081079205297
+    second: SNES - Super Bomberman - Bomberman_144
+  - first:
+      213: -6913856075026729088
+    second: SNES - Super Bomberman - Bomberman_145
+  - first:
+      213: -8511615784460974788
+    second: SNES - Super Bomberman - Bomberman_146
+  - first:
+      213: -4161375467587129701
+    second: SNES - Super Bomberman - Bomberman_147
+  - first:
+      213: 5711619859479009335
+    second: SNES - Super Bomberman - Bomberman_148
+  - first:
+      213: -6653086793577070675
+    second: SNES - Super Bomberman - Bomberman_149
+  - first:
+      213: -2833202959093190865
+    second: SNES - Super Bomberman - Bomberman_150
+  - first:
+      213: -2897727888514148878
+    second: SNES - Super Bomberman - Bomberman_151
+  - first:
+      213: -3578230227968960418
+    second: SNES - Super Bomberman - Bomberman_152
+  - first:
+      213: 2081981920617395510
+    second: SNES - Super Bomberman - Bomberman_153
+  - first:
+      213: -4747195331378313626
+    second: SNES - Super Bomberman - Bomberman_154
+  - first:
+      213: -1090861922595871809
+    second: SNES - Super Bomberman - Bomberman_155
+  - first:
+      213: 2375595268436330068
+    second: SNES - Super Bomberman - Bomberman_156
+  - first:
+      213: -2852256463127211598
+    second: SNES - Super Bomberman - Bomberman_157
+  - first:
+      213: 5417654343268283288
+    second: SNES - Super Bomberman - Bomberman_158
+  - first:
+      213: 6085738923594875841
+    second: SNES - Super Bomberman - Bomberman_159
+  - first:
+      213: -5092833995872805634
+    second: SNES - Super Bomberman - Bomberman_160
+  - first:
+      213: 2419676661776275899
+    second: SNES - Super Bomberman - Bomberman_161
+  - first:
+      213: -4084503523763627136
+    second: SNES - Super Bomberman - Bomberman_162
+  - first:
+      213: -7185362835168227174
+    second: SNES - Super Bomberman - Bomberman_163
+  - first:
+      213: -2005847748435908
+    second: SNES - Super Bomberman - Bomberman_164
+  - first:
+      213: -7763934964354223833
+    second: SNES - Super Bomberman - Bomberman_165
+  - first:
+      213: -2616661613842224883
+    second: SNES - Super Bomberman - Bomberman_166
+  - first:
+      213: 5389081908502422454
+    second: SNES - Super Bomberman - Bomberman_167
+  - first:
+      213: -7433347929315010293
+    second: SNES - Super Bomberman - Bomberman_168
+  - first:
+      213: 191916721987635935
+    second: SNES - Super Bomberman - Bomberman_169
+  - first:
+      213: 8254161595842029523
+    second: SNES - Super Bomberman - Bomberman_170
+  - first:
+      213: -8803031010347530055
+    second: SNES - Super Bomberman - Bomberman_171
+  - first:
+      213: -979016494251099778
+    second: SNES - Super Bomberman - Bomberman_172
+  - first:
+      213: 94483060412764934
+    second: SNES - Super Bomberman - Bomberman_173
+  - first:
+      213: -2535036574868960238
+    second: SNES - Super Bomberman - Bomberman_174
+  - first:
+      213: 143850512761978796
+    second: SNES - Super Bomberman - Bomberman_175
+  - first:
+      213: -6542133916652249900
+    second: SNES - Super Bomberman - Bomberman_176
+  - first:
+      213: 4438764399675126653
+    second: SNES - Super Bomberman - Bomberman_177
+  - first:
+      213: 1956256431332692307
+    second: SNES - Super Bomberman - Bomberman_178
+  - first:
+      213: -3991357635282763166
+    second: SNES - Super Bomberman - Bomberman_179
+  - first:
+      213: -6220991769361495898
+    second: SNES - Super Bomberman - Bomberman_180
+  - first:
+      213: -2197803872191952018
+    second: SNES - Super Bomberman - Bomberman_181
+  - first:
+      213: 8463159389915717905
+    second: SNES - Super Bomberman - Bomberman_182
+  - first:
+      213: -5170295552963354302
+    second: SNES - Super Bomberman - Bomberman_183
+  - first:
+      213: -8546620828907216767
+    second: SNES - Super Bomberman - Bomberman_184
+  - first:
+      213: 1490931695963750143
+    second: SNES - Super Bomberman - Bomberman_185
+  - first:
+      213: 8303349549471799072
+    second: SNES - Super Bomberman - Bomberman_186
+  - first:
+      213: 7066560579145280137
+    second: SNES - Super Bomberman - Bomberman_187
+  - first:
+      213: -4452345428768459498
+    second: SNES - Super Bomberman - Bomberman_188
+  - first:
+      213: -2564843185570357713
+    second: SNES - Super Bomberman - Bomberman_189
+  - first:
+      213: -8667551576678003402
+    second: SNES - Super Bomberman - Bomberman_190
+  - first:
+      213: 2499603839763374877
+    second: SNES - Super Bomberman - Bomberman_191
+  - first:
+      213: 3786815505739382323
+    second: SNES - Super Bomberman - Bomberman_192
+  - first:
+      213: -6919255561121698838
+    second: SNES - Super Bomberman - Bomberman_193
+  - first:
+      213: 1818919539626764086
+    second: SNES - Super Bomberman - Bomberman_194
+  - first:
+      213: 4359565972507381405
+    second: SNES - Super Bomberman - Bomberman_195
+  - first:
+      213: 3512973049121865790
+    second: SNES - Super Bomberman - Bomberman_196
+  - first:
+      213: 7109897354567820485
+    second: SNES - Super Bomberman - Bomberman_197
+  - first:
+      213: -3073989554974981899
+    second: SNES - Super Bomberman - Bomberman_198
+  - first:
+      213: 8282022260227052642
+    second: SNES - Super Bomberman - Bomberman_199
+  - first:
+      213: -8231881603887522345
+    second: SNES - Super Bomberman - Bomberman_200
+  - first:
+      213: -7297264769205228975
+    second: SNES - Super Bomberman - Bomberman_201
+  - first:
+      213: -4831058975677856660
+    second: SNES - Super Bomberman - Bomberman_202
+  - first:
+      213: -6968170631777213983
+    second: SNES - Super Bomberman - Bomberman_203
+  - first:
+      213: 7615759774000693364
+    second: SNES - Super Bomberman - Bomberman_204
+  - first:
+      213: 4125404075798559122
+    second: SNES - Super Bomberman - Bomberman_205
+  - first:
+      213: 2626114454822321782
+    second: SNES - Super Bomberman - Bomberman_206
+  - first:
+      213: 473978410819726714
+    second: SNES - Super Bomberman - Bomberman_207
+  - first:
+      213: -9062598172811536846
+    second: SNES - Super Bomberman - Bomberman_208
+  - first:
+      213: -1821435684476649304
+    second: SNES - Super Bomberman - Bomberman_209
+  - first:
+      213: 5922248433242848965
+    second: SNES - Super Bomberman - Bomberman_210
+  - first:
+      213: 2771425616087385581
+    second: SNES - Super Bomberman - Bomberman_211
+  - first:
+      213: -6292828950641193057
+    second: SNES - Super Bomberman - Bomberman_212
+  - first:
+      213: -4909160578757534716
+    second: SNES - Super Bomberman - Bomberman_213
+  - first:
+      213: -2701892281483046231
+    second: SNES - Super Bomberman - Bomberman_214
+  - first:
+      213: 3553795743874530572
+    second: SNES - Super Bomberman - Bomberman_215
+  - first:
+      213: 4092254536828019637
+    second: SNES - Super Bomberman - Bomberman_216
+  - first:
+      213: -7292014422200893420
+    second: SNES - Super Bomberman - Bomberman_217
+  - first:
+      213: -5134760154189868385
+    second: SNES - Super Bomberman - Bomberman_218
+  - first:
+      213: 3103883966666876881
+    second: SNES - Super Bomberman - Bomberman_219
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SNES - Super Bomberman - Bomberman_0
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 218
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fc6cde295435ecc0800000000000000
+      internalID: -3682479562662581006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman - Bomberman_1
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 192
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9be054a0e01496e40800000000000000
+      internalID: 5650118736070643385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman - Bomberman_2
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 194
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c03c3400adfdf1f10800000000000000
+      internalID: 2242757266854101772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman - Bomberman_3
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 194
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 845a9077f20d79530800000000000000
+      internalID: 3861784107772650824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman - Bomberman_4
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 192
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 313eb216bc41313a0800000000000000
+      internalID: -6695985357228612845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman - Bomberman_5
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 218
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ee575aab425e2970800000000000000
+      internalID: 8732007212451847913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman - Bomberman_6
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 191
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd02c059e8a9465e0800000000000000
+      internalID: -1917237604176355108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman - Bomberman_7
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 191
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40b9fe419330cd990800000000000000
+      internalID: -7360004147330966780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman - Bomberman_8
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 105
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21e12fc26accb2f30800000000000000
+      internalID: 4551956862478720530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman - Bomberman_9
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 81
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4bed1623c087f650800000000000000
+      internalID: 6266618982155807566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman - Bomberman_10
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 78
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccb98ba31c7fdd560800000000000000
+      internalID: 7340295376969702348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman - Bomberman_11
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 79
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cb8d8810cc200f30800000000000000
+      internalID: 4539677627946732489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman - Bomberman_12
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 105
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5417ed1702f1a53a0800000000000000
+      internalID: -6675989273413521083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman - Bomberman_13
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 79
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c421096b638bea80800000000000000
+      internalID: -8436504979602070334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman - Bomberman_14
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 78
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 701093f9a93b70c30800000000000000
+      internalID: 4325623443790299399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman - Bomberman_15
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 81
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4b647e14cd852b50800000000000000
+      internalID: 6567811505053789007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman - Bomberman_16
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 203
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5e4bd6588452a9c0800000000000000
+      internalID: -3917475781309411747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman - Bomberman_17
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 203
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a30302a251e42a270800000000000000
+      internalID: 8260250519358943290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman - Bomberman_18
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 90
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aef306da21c39290800000000000000
+      internalID: -7884746132872233312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman - Bomberman_19
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 90
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9383a0497e0dc8e0800000000000000
+      internalID: -1671663972746296422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: df1d90cccab8d984fa301e73872d89de
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

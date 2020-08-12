@@ -1,0 +1,1394 @@
+fileFormatVersion: 2
+guid: ab943847cc503d54eae01f212c432616
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3415596480480956086
+    second: SNES - Super Bomberman 5 JPN - Stage 01_0
+  - first:
+      213: -3819977776052675388
+    second: SNES - Super Bomberman 5 JPN - Stage 01_1
+  - first:
+      213: 47685600260384977
+    second: SNES - Super Bomberman 5 JPN - Stage 01_2
+  - first:
+      213: -3332502176350573474
+    second: SNES - Super Bomberman 5 JPN - Stage 01_3
+  - first:
+      213: -2181003508789201998
+    second: SNES - Super Bomberman 5 JPN - Stage 01_4
+  - first:
+      213: -4576568133899566130
+    second: SNES - Super Bomberman 5 JPN - Stage 01_5
+  - first:
+      213: -6419410245694153440
+    second: SNES - Super Bomberman 5 JPN - Stage 01_6
+  - first:
+      213: -3006707743854634698
+    second: SNES - Super Bomberman 5 JPN - Stage 01_7
+  - first:
+      213: 7629953702879362994
+    second: SNES - Super Bomberman 5 JPN - Stage 01_8
+  - first:
+      213: 2716316543247566844
+    second: SNES - Super Bomberman 5 JPN - Stage 01_9
+  - first:
+      213: -7679863888312775166
+    second: SNES - Super Bomberman 5 JPN - Stage 01_10
+  - first:
+      213: -7598156828144210657
+    second: SNES - Super Bomberman 5 JPN - Stage 01_11
+  - first:
+      213: 4173357406333410982
+    second: SNES - Super Bomberman 5 JPN - Stage 01_12
+  - first:
+      213: 5213028467962675635
+    second: SNES - Super Bomberman 5 JPN - Stage 01_13
+  - first:
+      213: 6266745077171899300
+    second: SNES - Super Bomberman 5 JPN - Stage 01_14
+  - first:
+      213: 4926400925882470482
+    second: SNES - Super Bomberman 5 JPN - Stage 01_15
+  - first:
+      213: -6716644222551363746
+    second: SNES - Super Bomberman 5 JPN - Stage 01_16
+  - first:
+      213: -6236261803001875682
+    second: SNES - Super Bomberman 5 JPN - Stage 01_17
+  - first:
+      213: -7003014144489016452
+    second: SNES - Super Bomberman 5 JPN - Stage 01_18
+  - first:
+      213: -3466528537834320498
+    second: SNES - Super Bomberman 5 JPN - Stage 01_19
+  - first:
+      213: -3162202136883120014
+    second: SNES - Super Bomberman 5 JPN - Stage 01_20
+  - first:
+      213: -2701450345353610127
+    second: SNES - Super Bomberman 5 JPN - Stage 01_21
+  - first:
+      213: -8283349287224202431
+    second: SNES - Super Bomberman 5 JPN - Stage 01_22
+  - first:
+      213: 3362138418326887159
+    second: SNES - Super Bomberman 5 JPN - Stage 01_23
+  - first:
+      213: -3879923382979578304
+    second: SNES - Super Bomberman 5 JPN - Stage 01_24
+  - first:
+      213: -8611832353396380562
+    second: SNES - Super Bomberman 5 JPN - Stage 01_25
+  - first:
+      213: 5217578229341549840
+    second: SNES - Super Bomberman 5 JPN - Stage 01_26
+  - first:
+      213: 967472881677346309
+    second: SNES - Super Bomberman 5 JPN - Stage 01_27
+  - first:
+      213: 2898601906997671719
+    second: SNES - Super Bomberman 5 JPN - Stage 01_28
+  - first:
+      213: -6838408106812024261
+    second: SNES - Super Bomberman 5 JPN - Stage 01_29
+  - first:
+      213: -9090515417701433756
+    second: SNES - Super Bomberman 5 JPN - Stage 01_30
+  - first:
+      213: -8444406880840221136
+    second: SNES - Super Bomberman 5 JPN - Stage 01_31
+  - first:
+      213: -1000275654380322256
+    second: SNES - Super Bomberman 5 JPN - Stage 01_32
+  - first:
+      213: -8966473890071105205
+    second: SNES - Super Bomberman 5 JPN - Stage 01_33
+  - first:
+      213: 2087984206973747493
+    second: SNES - Super Bomberman 5 JPN - Stage 01_34
+  - first:
+      213: 760876165445152852
+    second: SNES - Super Bomberman 5 JPN - Stage 01_35
+  - first:
+      213: -6531413121425022284
+    second: SNES - Super Bomberman 5 JPN - Stage 01_36
+  - first:
+      213: -3102710395875650954
+    second: SNES - Super Bomberman 5 JPN - Stage 01_37
+  - first:
+      213: 6826274192796485429
+    second: SNES - Super Bomberman 5 JPN - Stage 01_38
+  - first:
+      213: -5319199379947296916
+    second: SNES - Super Bomberman 5 JPN - Stage 01_39
+  - first:
+      213: 8177440847505784379
+    second: SNES - Super Bomberman 5 JPN - Stage 01_40
+  - first:
+      213: -4942277580767554781
+    second: SNES - Super Bomberman 5 JPN - Stage 01_41
+  - first:
+      213: -7977811095126637249
+    second: SNES - Super Bomberman 5 JPN - Stage 01_42
+  - first:
+      213: -6983882516278215188
+    second: SNES - Super Bomberman 5 JPN - Stage 01_43
+  - first:
+      213: 8331097360187081378
+    second: SNES - Super Bomberman 5 JPN - Stage 01_44
+  - first:
+      213: 6181968752362257551
+    second: SNES - Super Bomberman 5 JPN - Stage 01_45
+  - first:
+      213: -7228224235067720137
+    second: SNES - Super Bomberman 5 JPN - Stage 01_46
+  - first:
+      213: 7166343708648889473
+    second: SNES - Super Bomberman 5 JPN - Stage 01_47
+  - first:
+      213: -2976453781165318810
+    second: SNES - Super Bomberman 5 JPN - Stage 01_48
+  - first:
+      213: 606125315667126109
+    second: SNES - Super Bomberman 5 JPN - Stage 01_49
+  - first:
+      213: 7072745930686566621
+    second: SNES - Super Bomberman 5 JPN - Stage 01_50
+  - first:
+      213: 7496606656550464207
+    second: SNES - Super Bomberman 5 JPN - Stage 01_51
+  - first:
+      213: -7812505557376798584
+    second: SNES - Super Bomberman 5 JPN - Stage 01_52
+  - first:
+      213: -113629668921714595
+    second: SNES - Super Bomberman 5 JPN - Stage 01_53
+  - first:
+      213: -5401517727386651166
+    second: SNES - Super Bomberman 5 JPN - Stage 01_54
+  - first:
+      213: -218137385649538362
+    second: SNES - Super Bomberman 5 JPN - Stage 01_55
+  - first:
+      213: 2888952077476422085
+    second: SNES - Super Bomberman 5 JPN - Stage 01_56
+  - first:
+      213: 597032665590312815
+    second: SNES - Super Bomberman 5 JPN - Stage 01_57
+  - first:
+      213: -8984504767566708998
+    second: SNES - Super Bomberman 5 JPN - Stage 01_58
+  - first:
+      213: -5035278388731893485
+    second: SNES - Super Bomberman 5 JPN - Stage 01_59
+  - first:
+      213: -6511863805623227817
+    second: SNES - Super Bomberman 5 JPN - Stage 01_60
+  - first:
+      213: -7643591585431200917
+    second: SNES - Super Bomberman 5 JPN - Stage 01_61
+  - first:
+      213: 3130820373896630106
+    second: SNES - Super Bomberman 5 JPN - Stage 01_62
+  - first:
+      213: 6454067917630821458
+    second: SNES - Super Bomberman 5 JPN - Stage 01_63
+  - first:
+      213: 1697598850523467044
+    second: SNES - Super Bomberman 5 JPN - Stage 01_64
+  - first:
+      213: 7930570127668293753
+    second: SNES - Super Bomberman 5 JPN - Stage 01_65
+  - first:
+      213: 2954790385713546682
+    second: SNES - Super Bomberman 5 JPN - Stage 01_66
+  - first:
+      213: -8700804930835125142
+    second: SNES - Super Bomberman 5 JPN - Stage 01_67
+  - first:
+      213: -6572268867379726780
+    second: SNES - Super Bomberman 5 JPN - Stage 01_68
+  - first:
+      213: -805446081977375887
+    second: SNES - Super Bomberman 5 JPN - Stage 01_69
+  - first:
+      213: 6576130976470368246
+    second: SNES - Super Bomberman 5 JPN - Stage 01_70
+  - first:
+      213: 5129659152593603520
+    second: SNES - Super Bomberman 5 JPN - Stage 01_71
+  - first:
+      213: -4133047772528441231
+    second: SNES - Super Bomberman 5 JPN - Stage 01_72
+  - first:
+      213: -7687703017832979543
+    second: SNES - Super Bomberman 5 JPN - Stage 01_73
+  - first:
+      213: -4101203388452015119
+    second: SNES - Super Bomberman 5 JPN - Stage 01_74
+  - first:
+      213: -8782332094857370447
+    second: SNES - Super Bomberman 5 JPN - Stage 01_75
+  - first:
+      213: 2730878154473411354
+    second: SNES - Super Bomberman 5 JPN - Stage 01_76
+  - first:
+      213: -8139351403854241143
+    second: SNES - Super Bomberman 5 JPN - Stage 01_77
+  - first:
+      213: -2971794121100706034
+    second: SNES - Super Bomberman 5 JPN - Stage 01_78
+  - first:
+      213: 4532368524658411687
+    second: SNES - Super Bomberman 5 JPN - Stage 01_79
+  - first:
+      213: 4637217394870750565
+    second: SNES - Super Bomberman 5 JPN - Stage 01_80
+  - first:
+      213: -7287823758363496100
+    second: SNES - Super Bomberman 5 JPN - Stage 01_81
+  - first:
+      213: 3912354438496482081
+    second: SNES - Super Bomberman 5 JPN - Stage 01_82
+  - first:
+      213: -68443642719229614
+    second: SNES - Super Bomberman 5 JPN - Stage 01_83
+  - first:
+      213: 1041314296672404112
+    second: SNES - Super Bomberman 5 JPN - Stage 01_84
+  - first:
+      213: -2466073569993317485
+    second: SNES - Super Bomberman 5 JPN - Stage 01_85
+  - first:
+      213: 8305734512518685857
+    second: SNES - Super Bomberman 5 JPN - Stage 01_86
+  - first:
+      213: 8797856616700186379
+    second: SNES - Super Bomberman 5 JPN - Stage 01_87
+  - first:
+      213: 3243118772734002347
+    second: SNES - Super Bomberman 5 JPN - Stage 01_88
+  - first:
+      213: 6434326795358601582
+    second: SNES - Super Bomberman 5 JPN - Stage 01_89
+  - first:
+      213: 950209534656193500
+    second: SNES - Super Bomberman 5 JPN - Stage 01_90
+  - first:
+      213: 8701840323720471372
+    second: SNES - Super Bomberman 5 JPN - Stage 01_91
+  - first:
+      213: -1496161670163634115
+    second: SNES - Super Bomberman 5 JPN - Stage 01_92
+  - first:
+      213: 2424262352333642074
+    second: SNES - Super Bomberman 5 JPN - Stage 01_93
+  - first:
+      213: -5584395772491290342
+    second: SNES - Super Bomberman 5 JPN - Stage 01_94
+  - first:
+      213: 6358033191325212460
+    second: SNES - Super Bomberman 5 JPN - Stage 01_95
+  - first:
+      213: 202514388987630404
+    second: SNES - Super Bomberman 5 JPN - Stage 01_96
+  - first:
+      213: 8811229923066615020
+    second: SNES - Super Bomberman 5 JPN - Stage 01_97
+  - first:
+      213: 2403809397105422360
+    second: SNES - Super Bomberman 5 JPN - Stage 01_98
+  - first:
+      213: 6996920811650496899
+    second: SNES - Super Bomberman 5 JPN - Stage 01_99
+  - first:
+      213: 4624630054149788113
+    second: SNES - Super Bomberman 5 JPN - Stage 01_100
+  - first:
+      213: -7868797045993181651
+    second: SNES - Super Bomberman 5 JPN - Stage 01_101
+  - first:
+      213: -4280157905524142190
+    second: SNES - Super Bomberman 5 JPN - Stage 01_102
+  - first:
+      213: -1178312789963222605
+    second: SNES - Super Bomberman 5 JPN - Stage 01_103
+  - first:
+      213: 5485176140305586631
+    second: SNES - Super Bomberman 5 JPN - Stage 01_104
+  - first:
+      213: -8665256170790185071
+    second: SNES - Super Bomberman 5 JPN - Stage 01_105
+  - first:
+      213: 8089270528688546320
+    second: SNES - Super Bomberman 5 JPN - Stage 01_106
+  - first:
+      213: -7940294909782130052
+    second: SNES - Super Bomberman 5 JPN - Stage 01_107
+  - first:
+      213: -5298627719295626256
+    second: SNES - Super Bomberman 5 JPN - Stage 01_108
+  - first:
+      213: 1135531245281220500
+    second: SNES - Super Bomberman 5 JPN - Stage 01_109
+  - first:
+      213: 5969081956360220559
+    second: SNES - Super Bomberman 5 JPN - Stage 01_110
+  - first:
+      213: -5450750179402289823
+    second: SNES - Super Bomberman 5 JPN - Stage 01_111
+  - first:
+      213: -4086657634579367352
+    second: SNES - Super Bomberman 5 JPN - Stage 01_112
+  - first:
+      213: 5774714830532538964
+    second: SNES - Super Bomberman 5 JPN - Stage 01_113
+  - first:
+      213: -4197667230760323073
+    second: SNES - Super Bomberman 5 JPN - Stage 01_114
+  - first:
+      213: -3705910390575696496
+    second: SNES - Super Bomberman 5 JPN - Stage 01_115
+  - first:
+      213: 7667166797612196924
+    second: SNES - Super Bomberman 5 JPN - Stage 01_116
+  - first:
+      213: 7021375204099347861
+    second: SNES - Super Bomberman 5 JPN - Stage 01_117
+  - first:
+      213: 1601685047840874969
+    second: SNES - Super Bomberman 5 JPN - Stage 01_118
+  - first:
+      213: 2055518674083866414
+    second: SNES - Super Bomberman 5 JPN - Stage 01_119
+  - first:
+      213: 863759660502970869
+    second: SNES - Super Bomberman 5 JPN - Stage 01_120
+  - first:
+      213: -4897418530526742530
+    second: SNES - Super Bomberman 5 JPN - Stage 01_121
+  - first:
+      213: -8309977672205049018
+    second: SNES - Super Bomberman 5 JPN - Stage 01_122
+  - first:
+      213: 4861584635685500024
+    second: SNES - Super Bomberman 5 JPN - Stage 01_123
+  - first:
+      213: -492712036451129688
+    second: SNES - Super Bomberman 5 JPN - Stage 01_124
+  - first:
+      213: 7643956247676385552
+    second: SNES - Super Bomberman 5 JPN - Stage 01_125
+  - first:
+      213: -1569617275186690107
+    second: SNES - Super Bomberman 5 JPN - Stage 01_126
+  - first:
+      213: 390921407896702779
+    second: SNES - Super Bomberman 5 JPN - Stage 01_127
+  - first:
+      213: -5877788961273404110
+    second: SNES - Super Bomberman 5 JPN - Stage 01_128
+  - first:
+      213: 6616924777841977133
+    second: SNES - Super Bomberman 5 JPN - Stage 01_129
+  - first:
+      213: -3305450215457435157
+    second: SNES - Super Bomberman 5 JPN - Stage 01_130
+  - first:
+      213: 8415913363027778274
+    second: SNES - Super Bomberman 5 JPN - Stage 01_131
+  - first:
+      213: 4481919616305003178
+    second: SNES - Super Bomberman 5 JPN - Stage 01_132
+  - first:
+      213: -8471690675210675875
+    second: SNES - Super Bomberman 5 JPN - Stage 01_133
+  - first:
+      213: 1362867629751358648
+    second: SNES - Super Bomberman 5 JPN - Stage 01_134
+  - first:
+      213: 5260865359613148901
+    second: SNES - Super Bomberman 5 JPN - Stage 01_135
+  - first:
+      213: 4144973301958716150
+    second: SNES - Super Bomberman 5 JPN - Stage 01_136
+  - first:
+      213: -3523684127787082579
+    second: SNES - Super Bomberman 5 JPN - Stage 01_137
+  - first:
+      213: -867121034252573702
+    second: SNES - Super Bomberman 5 JPN - Stage 01_138
+  - first:
+      213: 4720364296082242433
+    second: SNES - Super Bomberman 5 JPN - Stage 01_139
+  - first:
+      213: 7169179590030138297
+    second: SNES - Super Bomberman 5 JPN - Stage 01_140
+  - first:
+      213: -6463271604566344463
+    second: SNES - Super Bomberman 5 JPN - Stage 01_141
+  - first:
+      213: -8683791112826534286
+    second: SNES - Super Bomberman 5 JPN - Stage 01_142
+  - first:
+      213: -5368626621874517986
+    second: SNES - Super Bomberman 5 JPN - Stage 01_143
+  - first:
+      213: -7401324425465050000
+    second: SNES - Super Bomberman 5 JPN - Stage 01_144
+  - first:
+      213: 7288689488972300424
+    second: SNES - Super Bomberman 5 JPN - Stage 01_145
+  - first:
+      213: -5602377360854551944
+    second: SNES - Super Bomberman 5 JPN - Stage 01_146
+  - first:
+      213: 3240173252631262383
+    second: SNES - Super Bomberman 5 JPN - Stage 01_147
+  - first:
+      213: -4617596232638918153
+    second: SNES - Super Bomberman 5 JPN - Stage 01_148
+  - first:
+      213: 4349198301575547524
+    second: SNES - Super Bomberman 5 JPN - Stage 01_149
+  - first:
+      213: -8460478803136273010
+    second: SNES - Super Bomberman 5 JPN - Stage 01_150
+  - first:
+      213: 7420448262672100466
+    second: SNES - Super Bomberman 5 JPN - Stage 01_151
+  - first:
+      213: 6394616530596187739
+    second: SNES - Super Bomberman 5 JPN - Stage 01_152
+  - first:
+      213: -6247741607705671812
+    second: SNES - Super Bomberman 5 JPN - Stage 01_153
+  - first:
+      213: 3603946872012303419
+    second: SNES - Super Bomberman 5 JPN - Stage 01_154
+  - first:
+      213: 2175166254993109885
+    second: SNES - Super Bomberman 5 JPN - Stage 01_155
+  - first:
+      213: 5539314956224010556
+    second: SNES - Super Bomberman 5 JPN - Stage 01_156
+  - first:
+      213: 2768974213595551460
+    second: SNES - Super Bomberman 5 JPN - Stage 01_157
+  - first:
+      213: -728491386394093052
+    second: SNES - Super Bomberman 5 JPN - Stage 01_158
+  - first:
+      213: 2995352310453385385
+    second: SNES - Super Bomberman 5 JPN - Stage 01_159
+  - first:
+      213: 3466593730421584775
+    second: SNES - Super Bomberman 5 JPN - Stage 01_160
+  - first:
+      213: -506636661723721081
+    second: SNES - Super Bomberman 5 JPN - Stage 01_161
+  - first:
+      213: -2822172970716319928
+    second: SNES - Super Bomberman 5 JPN - Stage 01_162
+  - first:
+      213: -9050134299707531237
+    second: SNES - Super Bomberman 5 JPN - Stage 01_163
+  - first:
+      213: -650932914991525657
+    second: SNES - Super Bomberman 5 JPN - Stage 01_164
+  - first:
+      213: -5841096566640621303
+    second: SNES - Super Bomberman 5 JPN - Stage 01_165
+  - first:
+      213: -2494765403437665487
+    second: SNES - Super Bomberman 5 JPN - Stage 01_166
+  - first:
+      213: -2558026601923053283
+    second: SNES - Super Bomberman 5 JPN - Stage 01_167
+  - first:
+      213: -2669465076253902785
+    second: SNES - Super Bomberman 5 JPN - Stage 01_168
+  - first:
+      213: 296761439098582971
+    second: SNES - Super Bomberman 5 JPN - Stage 01_169
+  - first:
+      213: 149024984040873414
+    second: SNES - Super Bomberman 5 JPN - Stage 01_170
+  - first:
+      213: -8634980314432072320
+    second: SNES - Super Bomberman 5 JPN - Stage 01_171
+  - first:
+      213: 4814157245924481449
+    second: SNES - Super Bomberman 5 JPN - Stage 01_172
+  - first:
+      213: 6239326333152646362
+    second: SNES - Super Bomberman 5 JPN - Stage 01_173
+  - first:
+      213: 8515436091405071144
+    second: SNES - Super Bomberman 5 JPN - Stage 01_174
+  - first:
+      213: 1973363799596405045
+    second: SNES - Super Bomberman 5 JPN - Stage 01_175
+  - first:
+      213: 2637590365929463386
+    second: SNES - Super Bomberman 5 JPN - Stage 01_176
+  - first:
+      213: 4934281352404286958
+    second: SNES - Super Bomberman 5 JPN - Stage 01_177
+  - first:
+      213: 3510338409028989126
+    second: SNES - Super Bomberman 5 JPN - Stage 01_178
+  - first:
+      213: 2045484842835755899
+    second: SNES - Super Bomberman 5 JPN - Stage 01_179
+  - first:
+      213: -9214833532469294325
+    second: SNES - Super Bomberman 5 JPN - Stage 01_180
+  - first:
+      213: -1289409635921387899
+    second: SNES - Super Bomberman 5 JPN - Stage 01_181
+  - first:
+      213: -4142709661087261368
+    second: SNES - Super Bomberman 5 JPN - Stage 01_182
+  - first:
+      213: 4401864984861237688
+    second: SNES - Super Bomberman 5 JPN - Stage 01_183
+  - first:
+      213: -987989141856980779
+    second: SNES - Super Bomberman 5 JPN - Stage 01_184
+  - first:
+      213: -1159772525990294523
+    second: SNES - Super Bomberman 5 JPN - Stage 01_185
+  - first:
+      213: 7218276024967195410
+    second: SNES - Super Bomberman 5 JPN - Stage 01_186
+  - first:
+      213: 6236599803019432723
+    second: SNES - Super Bomberman 5 JPN - Stage 01_187
+  - first:
+      213: 1065059411099587411
+    second: SNES - Super Bomberman 5 JPN - Stage 01_188
+  - first:
+      213: 7715899596527507229
+    second: SNES - Super Bomberman 5 JPN - Stage 01_189
+  - first:
+      213: -7091318504442626117
+    second: SNES - Super Bomberman 5 JPN - Stage 01_190
+  - first:
+      213: -6106600289279867622
+    second: SNES - Super Bomberman 5 JPN - Stage 01_191
+  - first:
+      213: 4971344656883750751
+    second: SNES - Super Bomberman 5 JPN - Stage 01_192
+  - first:
+      213: 5652843253703079162
+    second: SNES - Super Bomberman 5 JPN - Stage 01_193
+  - first:
+      213: -7298977001076659041
+    second: SNES - Super Bomberman 5 JPN - Stage 01_194
+  - first:
+      213: -465725224170610372
+    second: SNES - Super Bomberman 5 JPN - Stage 01_195
+  - first:
+      213: -3853081075637876877
+    second: SNES - Super Bomberman 5 JPN - Stage 01_196
+  - first:
+      213: 5934436119071804993
+    second: SNES - Super Bomberman 5 JPN - Stage 01_197
+  - first:
+      213: -3297286393586009584
+    second: SNES - Super Bomberman 5 JPN - Stage 01_198
+  - first:
+      213: 6103289479096222330
+    second: SNES - Super Bomberman 5 JPN - Stage 01_199
+  - first:
+      213: 7154851673442862816
+    second: SNES - Super Bomberman 5 JPN - Stage 01_200
+  - first:
+      213: 751261684111938296
+    second: SNES - Super Bomberman 5 JPN - Stage 01_201
+  - first:
+      213: -3723471669481436351
+    second: SNES - Super Bomberman 5 JPN - Stage 01_202
+  - first:
+      213: 8765454588863152880
+    second: SNES - Super Bomberman 5 JPN - Stage 01_203
+  - first:
+      213: -392507696420910506
+    second: SNES - Super Bomberman 5 JPN - Stage 01_204
+  - first:
+      213: -7108074471530714863
+    second: SNES - Super Bomberman 5 JPN - Stage 01_205
+  - first:
+      213: 8903236250562626609
+    second: SNES - Super Bomberman 5 JPN - Stage 01_206
+  - first:
+      213: -8891184985959812190
+    second: SNES - Super Bomberman 5 JPN - Stage 01_207
+  - first:
+      213: 6682523063142074577
+    second: SNES - Super Bomberman 5 JPN - Stage 01_208
+  - first:
+      213: 3599294185856100226
+    second: SNES - Super Bomberman 5 JPN - Stage 01_209
+  - first:
+      213: 8973173640416913691
+    second: SNES - Super Bomberman 5 JPN - Stage 01_210
+  - first:
+      213: 4523224672201662343
+    second: SNES - Super Bomberman 5 JPN - Stage 01_211
+  - first:
+      213: -5967746520572302524
+    second: SNES - Super Bomberman 5 JPN - Stage 01_212
+  - first:
+      213: 480051510089297014
+    second: SNES - Super Bomberman 5 JPN - Stage 01_213
+  - first:
+      213: 5149453878213387059
+    second: SNES - Super Bomberman 5 JPN - Stage 01_214
+  - first:
+      213: 2557765174481307898
+    second: SNES - Super Bomberman 5 JPN - Stage 01_215
+  - first:
+      213: 6182591793866433157
+    second: SNES - Super Bomberman 5 JPN - Stage 01_216
+  - first:
+      213: -8834260548791487614
+    second: SNES - Super Bomberman 5 JPN - Stage 01_217
+  - first:
+      213: -7948140464314640083
+    second: SNES - Super Bomberman 5 JPN - Stage 01_218
+  - first:
+      213: -688137527425708312
+    second: SNES - Super Bomberman 5 JPN - Stage 01_219
+  - first:
+      213: -1655796333361031627
+    second: SNES - Super Bomberman 5 JPN - Stage 01_220
+  - first:
+      213: 3915571698355630708
+    second: SNES - Super Bomberman 5 JPN - Stage 01_221
+  - first:
+      213: 4219954394545515746
+    second: SNES - Super Bomberman 5 JPN - Stage 01_222
+  - first:
+      213: -3353959186761281131
+    second: SNES - Super Bomberman 5 JPN - Stage 01_223
+  - first:
+      213: -9118039268307618521
+    second: SNES - Super Bomberman 5 JPN - Stage 01_224
+  - first:
+      213: 8717263877854209647
+    second: SNES - Super Bomberman 5 JPN - Stage 01_225
+  - first:
+      213: -5051971288495126351
+    second: SNES - Super Bomberman 5 JPN - Stage 01_226
+  - first:
+      213: 6027126131128522384
+    second: SNES - Super Bomberman 5 JPN - Stage 01_227
+  - first:
+      213: 2697585621798311931
+    second: SNES - Super Bomberman 5 JPN - Stage 01_228
+  - first:
+      213: -2880171016660924670
+    second: SNES - Super Bomberman 5 JPN - Stage 01_229
+  - first:
+      213: 816108105585343598
+    second: SNES - Super Bomberman 5 JPN - Stage 01_230
+  - first:
+      213: -1908096675801165727
+    second: SNES - Super Bomberman 5 JPN - Stage 01_231
+  - first:
+      213: 5468691841754192559
+    second: SNES - Super Bomberman 5 JPN - Stage 01_232
+  - first:
+      213: 1491905488503709398
+    second: SNES - Super Bomberman 5 JPN - Stage 01_233
+  - first:
+      213: -8876153099838217682
+    second: SNES - Super Bomberman 5 JPN - Stage 01_234
+  - first:
+      213: -6338594332015407076
+    second: SNES - Super Bomberman 5 JPN - Stage 01_235
+  - first:
+      213: -8956787799532023717
+    second: SNES - Super Bomberman 5 JPN - Stage 01_236
+  - first:
+      213: -8626827601889933787
+    second: SNES - Super Bomberman 5 JPN - Stage 01_237
+  - first:
+      213: 5761843108772938536
+    second: SNES - Super Bomberman 5 JPN - Stage 01_238
+  - first:
+      213: 7214915218529775648
+    second: SNES - Super Bomberman 5 JPN - Stage 01_239
+  - first:
+      213: 8536032428076391449
+    second: SNES - Super Bomberman 5 JPN - Stage 01_240
+  - first:
+      213: 7751853645762772008
+    second: SNES - Super Bomberman 5 JPN - Stage 01_241
+  - first:
+      213: -8127237457783003645
+    second: SNES - Super Bomberman 5 JPN - Stage 01_242
+  - first:
+      213: 5673261203445608465
+    second: SNES - Super Bomberman 5 JPN - Stage 01_243
+  - first:
+      213: -4249265870088317634
+    second: SNES - Super Bomberman 5 JPN - Stage 01_244
+  - first:
+      213: -4620957700195607774
+    second: SNES - Super Bomberman 5 JPN - Stage 01_245
+  - first:
+      213: 1354370131111058320
+    second: SNES - Super Bomberman 5 JPN - Stage 01_246
+  - first:
+      213: -8751253860612242611
+    second: SNES - Super Bomberman 5 JPN - Stage 01_247
+  - first:
+      213: -3685261452426440898
+    second: SNES - Super Bomberman 5 JPN - Stage 01_248
+  - first:
+      213: -8949733575703226698
+    second: SNES - Super Bomberman 5 JPN - Stage 01_249
+  - first:
+      213: 891160672108385333
+    second: SNES - Super Bomberman 5 JPN - Stage 01_250
+  - first:
+      213: 5381224029614167203
+    second: SNES - Super Bomberman 5 JPN - Stage 01_251
+  - first:
+      213: 5005137693064048673
+    second: SNES - Super Bomberman 5 JPN - Stage 01_252
+  - first:
+      213: -3769243460071258840
+    second: SNES - Super Bomberman 5 JPN - Stage 01_253
+  - first:
+      213: -4835613949526122273
+    second: SNES - Super Bomberman 5 JPN - Stage 01_254
+  - first:
+      213: 6731107134578773741
+    second: SNES - Super Bomberman 5 JPN - Stage 01_255
+  - first:
+      213: 4055574442064031980
+    second: SNES - Super Bomberman 5 JPN - Stage 01_256
+  - first:
+      213: -6630311279275519479
+    second: SNES - Super Bomberman 5 JPN - Stage 01_257
+  - first:
+      213: 591926269027662305
+    second: SNES - Super Bomberman 5 JPN - Stage 01_258
+  - first:
+      213: 1348031723281204196
+    second: SNES - Super Bomberman 5 JPN - Stage 01_259
+  - first:
+      213: 7839005035057702406
+    second: SNES - Super Bomberman 5 JPN - Stage 01_260
+  - first:
+      213: 5094742924783287660
+    second: SNES - Super Bomberman 5 JPN - Stage 01_261
+  - first:
+      213: 1870547848550063652
+    second: SNES - Super Bomberman 5 JPN - Stage 01_262
+  - first:
+      213: 5144872922894797673
+    second: SNES - Super Bomberman 5 JPN - Stage 01_263
+  - first:
+      213: 6055945869469569500
+    second: SNES - Super Bomberman 5 JPN - Stage 01_264
+  - first:
+      213: 5971386613206154830
+    second: SNES - Super Bomberman 5 JPN - Stage 01_265
+  - first:
+      213: -8000689796404459220
+    second: SNES - Super Bomberman 5 JPN - Stage 01_266
+  - first:
+      213: -7323149324422457818
+    second: SNES - Super Bomberman 5 JPN - Stage 01_267
+  - first:
+      213: 4147979220747995790
+    second: SNES - Super Bomberman 5 JPN - Stage 01_268
+  - first:
+      213: -8463003953991378583
+    second: SNES - Super Bomberman 5 JPN - Stage 01_269
+  - first:
+      213: 6637415472236351200
+    second: SNES - Super Bomberman 5 JPN - Stage 01_270
+  - first:
+      213: -1120919938603606770
+    second: SNES - Super Bomberman 5 JPN - Stage 01_271
+  - first:
+      213: 4282849713700013735
+    second: SNES - Super Bomberman 5 JPN - Stage 01_272
+  - first:
+      213: 3240758024088711641
+    second: SNES - Super Bomberman 5 JPN - Stage 01_273
+  - first:
+      213: 361860971223506197
+    second: SNES - Super Bomberman 5 JPN - Stage 01_274
+  - first:
+      213: 5410564538525552377
+    second: SNES - Super Bomberman 5 JPN - Stage 01_275
+  - first:
+      213: -437434453348129216
+    second: SNES - Super Bomberman 5 JPN - Stage 01_276
+  - first:
+      213: -2520965277644363672
+    second: SNES - Super Bomberman 5 JPN - Stage 01_277
+  - first:
+      213: -6351372847709677007
+    second: SNES - Super Bomberman 5 JPN - Stage 01_278
+  - first:
+      213: -1109102671678264248
+    second: SNES - Super Bomberman 5 JPN - Stage 01_279
+  - first:
+      213: 1791745822368204442
+    second: SNES - Super Bomberman 5 JPN - Stage 01_280
+  - first:
+      213: 2729975997968843545
+    second: SNES - Super Bomberman 5 JPN - Stage 01_281
+  - first:
+      213: -7857914014787569368
+    second: SNES - Super Bomberman 5 JPN - Stage 01_282
+  - first:
+      213: -2306368804227225319
+    second: SNES - Super Bomberman 5 JPN - Stage 01_283
+  - first:
+      213: -1718023585902630224
+    second: SNES - Super Bomberman 5 JPN - Stage 01_284
+  - first:
+      213: -8298516788443575822
+    second: SNES - Super Bomberman 5 JPN - Stage 01_285
+  - first:
+      213: 3557169020401776181
+    second: SNES - Super Bomberman 5 JPN - Stage 01_286
+  - first:
+      213: -3279230626229018917
+    second: SNES - Super Bomberman 5 JPN - Stage 01_287
+  - first:
+      213: 321831622927163609
+    second: SNES - Super Bomberman 5 JPN - Stage 01_288
+  - first:
+      213: 7552123256921970287
+    second: SNES - Super Bomberman 5 JPN - Stage 01_289
+  - first:
+      213: 7738305336786758679
+    second: SNES - Super Bomberman 5 JPN - Stage 01_290
+  - first:
+      213: -5159135378840750736
+    second: SNES - Super Bomberman 5 JPN - Stage 01_291
+  - first:
+      213: 2013685887711972129
+    second: SNES - Super Bomberman 5 JPN - Stage 01_292
+  - first:
+      213: -5056336191471153150
+    second: SNES - Super Bomberman 5 JPN - Stage 01_293
+  - first:
+      213: 3410207905316871737
+    second: SNES - Super Bomberman 5 JPN - Stage 01_294
+  - first:
+      213: -3481402283496973108
+    second: SNES - Super Bomberman 5 JPN - Stage 01_295
+  - first:
+      213: 1410239569994989887
+    second: SNES - Super Bomberman 5 JPN - Stage 01_296
+  - first:
+      213: 6541724090993495279
+    second: SNES - Super Bomberman 5 JPN - Stage 01_297
+  - first:
+      213: 6396001642792185665
+    second: SNES - Super Bomberman 5 JPN - Stage 01_298
+  - first:
+      213: -4615097828824910458
+    second: SNES - Super Bomberman 5 JPN - Stage 01_299
+  - first:
+      213: -7860678427519099438
+    second: SNES - Super Bomberman 5 JPN - Stage 01_300
+  - first:
+      213: 4880478887346913117
+    second: SNES - Super Bomberman 5 JPN - Stage 01_301
+  - first:
+      213: 6750518001850286249
+    second: SNES - Super Bomberman 5 JPN - Stage 01_302
+  - first:
+      213: -5627868184274818661
+    second: SNES - Super Bomberman 5 JPN - Stage 01_303
+  - first:
+      213: -7456633864604305629
+    second: SNES - Super Bomberman 5 JPN - Stage 01_304
+  - first:
+      213: -8499006572930156635
+    second: SNES - Super Bomberman 5 JPN - Stage 01_305
+  - first:
+      213: -8167297215207849890
+    second: SNES - Super Bomberman 5 JPN - Stage 01_306
+  - first:
+      213: 2655101869308558474
+    second: SNES - Super Bomberman 5 JPN - Stage 01_307
+  - first:
+      213: 4823576008469908315
+    second: SNES - Super Bomberman 5 JPN - Stage 01_308
+  - first:
+      213: 8843780201638218566
+    second: SNES - Super Bomberman 5 JPN - Stage 01_309
+  - first:
+      213: -6870301410002729654
+    second: SNES - Super Bomberman 5 JPN - Stage 01_310
+  - first:
+      213: 4445782772074866640
+    second: SNES - Super Bomberman 5 JPN - Stage 01_311
+  - first:
+      213: 4566707737412411014
+    second: SNES - Super Bomberman 5 JPN - Stage 01_312
+  - first:
+      213: 334218273527086867
+    second: SNES - Super Bomberman 5 JPN - Stage 01_313
+  - first:
+      213: 6298977439167456337
+    second: SNES - Super Bomberman 5 JPN - Stage 01_314
+  - first:
+      213: -1736596549392520435
+    second: SNES - Super Bomberman 5 JPN - Stage 01_315
+  - first:
+      213: -3647301281136358037
+    second: SNES - Super Bomberman 5 JPN - Stage 01_316
+  - first:
+      213: 496138645054668110
+    second: SNES - Super Bomberman 5 JPN - Stage 01_317
+  - first:
+      213: -8486770581096256968
+    second: SNES - Super Bomberman 5 JPN - Stage 01_318
+  - first:
+      213: 1890782916944185585
+    second: SNES - Super Bomberman 5 JPN - Stage 01_319
+  - first:
+      213: -8250258997979194601
+    second: SNES - Super Bomberman 5 JPN - Stage 01_320
+  - first:
+      213: 789354628688270686
+    second: SNES - Super Bomberman 5 JPN - Stage 01_321
+  - first:
+      213: -6251611624552257226
+    second: SNES - Super Bomberman 5 JPN - Stage 01_322
+  - first:
+      213: -5873697489181423766
+    second: SNES - Super Bomberman 5 JPN - Stage 01_323
+  - first:
+      213: 8909015742097115698
+    second: SNES - Super Bomberman 5 JPN - Stage 01_324
+  - first:
+      213: 7816717596071708572
+    second: SNES - Super Bomberman 5 JPN - Stage 01_325
+  - first:
+      213: -8426459995977014448
+    second: SNES - Super Bomberman 5 JPN - Stage 01_326
+  - first:
+      213: -2839303430441137624
+    second: SNES - Super Bomberman 5 JPN - Stage 01_327
+  - first:
+      213: -7790669701667350983
+    second: SNES - Super Bomberman 5 JPN - Stage 01_328
+  - first:
+      213: -5178818324901162797
+    second: SNES - Super Bomberman 5 JPN - Stage 01_329
+  - first:
+      213: -3744873396027842934
+    second: SNES - Super Bomberman 5 JPN - Stage 01_330
+  - first:
+      213: 8044617109997183368
+    second: SNES - Super Bomberman 5 JPN - Stage 01_331
+  - first:
+      213: 8466739854104502446
+    second: SNES - Super Bomberman 5 JPN - Stage 01_332
+  - first:
+      213: 2833869139094591554
+    second: SNES - Super Bomberman 5 JPN - Stage 01_333
+  - first:
+      213: -942942365671982887
+    second: SNES - Super Bomberman 5 JPN - Stage 01_334
+  - first:
+      213: -2359967358629293554
+    second: SNES - Super Bomberman 5 JPN - Stage 01_335
+  - first:
+      213: 1694767074960767069
+    second: SNES - Super Bomberman 5 JPN - Stage 01_336
+  - first:
+      213: 5045775193139390663
+    second: SNES - Super Bomberman 5 JPN - Stage 01_337
+  - first:
+      213: -5434220647088501161
+    second: SNES - Super Bomberman 5 JPN - Stage 01_338
+  - first:
+      213: 1650508298478670481
+    second: SNES - Super Bomberman 5 JPN - Stage 01_339
+  - first:
+      213: -2783961101716497145
+    second: SNES - Super Bomberman 5 JPN - Stage 01_340
+  - first:
+      213: -8531418903266909429
+    second: SNES - Super Bomberman 5 JPN - Stage 01_341
+  - first:
+      213: 9084377253000582254
+    second: SNES - Super Bomberman 5 JPN - Stage 01_342
+  - first:
+      213: 217773926894386992
+    second: SNES - Super Bomberman 5 JPN - Stage 01_343
+  - first:
+      213: -4770763568880119126
+    second: SNES - Super Bomberman 5 JPN - Stage 01_344
+  - first:
+      213: -1301604933349078002
+    second: SNES - Super Bomberman 5 JPN - Stage 01_345
+  - first:
+      213: 7419183811743384433
+    second: SNES - Super Bomberman 5 JPN - Stage 01_346
+  - first:
+      213: 3941975723351928610
+    second: SNES - Super Bomberman 5 JPN - Stage 01_347
+  - first:
+      213: 4477336550343482454
+    second: SNES - Super Bomberman 5 JPN - Stage 01_348
+  - first:
+      213: 7373681193616849336
+    second: SNES - Super Bomberman 5 JPN - Stage 01_349
+  - first:
+      213: 5318635519979570968
+    second: SNES - Super Bomberman 5 JPN - Stage 01_350
+  - first:
+      213: 8463418080079833034
+    second: SNES - Super Bomberman 5 JPN - Stage 01_351
+  - first:
+      213: 2413575331343682381
+    second: SNES - Super Bomberman 5 JPN - Stage 01_352
+  - first:
+      213: -7191401203025203046
+    second: SNES - Super Bomberman 5 JPN - Stage 01_353
+  - first:
+      213: 3234877362625424204
+    second: SNES - Super Bomberman 5 JPN - Stage 01_354
+  - first:
+      213: -7147447763183635429
+    second: SNES - Super Bomberman 5 JPN - Stage 01_355
+  - first:
+      213: 1556449529003123725
+    second: SNES - Super Bomberman 5 JPN - Stage 01_356
+  - first:
+      213: -6575829276388074531
+    second: SNES - Super Bomberman 5 JPN - Stage 01_357
+  - first:
+      213: 8287094301965469648
+    second: SNES - Super Bomberman 5 JPN - Stage 01_358
+  - first:
+      213: 7256876395293089522
+    second: SNES - Super Bomberman 5 JPN - Stage 01_359
+  - first:
+      213: 7451096617829512131
+    second: SNES - Super Bomberman 5 JPN - Stage 01_360
+  - first:
+      213: 5812368532314276383
+    second: SNES - Super Bomberman 5 JPN - Stage 01_361
+  - first:
+      213: 3426147455920660977
+    second: SNES - Super Bomberman 5 JPN - Stage 01_362
+  - first:
+      213: -8572920415487596360
+    second: SNES - Super Bomberman 5 JPN - Stage 01_363
+  - first:
+      213: -3217402898853853764
+    second: SNES - Super Bomberman 5 JPN - Stage 01_364
+  - first:
+      213: 1301046489488186848
+    second: SNES - Super Bomberman 5 JPN - Stage 01_365
+  - first:
+      213: -115914642419011577
+    second: SNES - Super Bomberman 5 JPN - Stage 01_366
+  - first:
+      213: 4020905588422683037
+    second: SNES - Super Bomberman 5 JPN - Stage 01_367
+  - first:
+      213: 7173340808284383499
+    second: SNES - Super Bomberman 5 JPN - Stage 01_368
+  - first:
+      213: 1324701732048411892
+    second: SNES - Super Bomberman 5 JPN - Stage 01_369
+  - first:
+      213: 4357024532790278921
+    second: SNES - Super Bomberman 5 JPN - Stage 01_370
+  - first:
+      213: 1659250795689655839
+    second: SNES - Super Bomberman 5 JPN - Stage 01_371
+  - first:
+      213: 4526935248551595463
+    second: SNES - Super Bomberman 5 JPN - Stage 01_372
+  - first:
+      213: 2131756406639913330
+    second: SNES - Super Bomberman 5 JPN - Stage 01_373
+  - first:
+      213: -2508635121074652102
+    second: SNES - Super Bomberman 5 JPN - Stage 01_374
+  - first:
+      213: -5075451420888884094
+    second: SNES - Super Bomberman 5 JPN - Stage 01_375
+  - first:
+      213: -5885112284964185827
+    second: SNES - Super Bomberman 5 JPN - Stage 01_376
+  - first:
+      213: 1791967349731592650
+    second: SNES - Super Bomberman 5 JPN - Stage 01_377
+  - first:
+      213: 6966582099288640242
+    second: SNES - Super Bomberman 5 JPN - Stage 01_378
+  - first:
+      213: -8418960592978768240
+    second: SNES - Super Bomberman 5 JPN - Stage 01_379
+  - first:
+      213: -6062907645062119810
+    second: SNES - Super Bomberman 5 JPN - Stage 01_380
+  - first:
+      213: -6077448589192128428
+    second: SNES - Super Bomberman 5 JPN - Stage 01_381
+  - first:
+      213: 1840097149927143520
+    second: SNES - Super Bomberman 5 JPN - Stage 01_382
+  - first:
+      213: 2359398117476461438
+    second: SNES - Super Bomberman 5 JPN - Stage 01_383
+  - first:
+      213: -4737090573769350941
+    second: SNES - Super Bomberman 5 JPN - Stage 01_384
+  - first:
+      213: -4675346508542247828
+    second: SNES - Super Bomberman 5 JPN - Stage 01_385
+  - first:
+      213: -7686282047099113112
+    second: SNES - Super Bomberman 5 JPN - Stage 01_386
+  - first:
+      213: 2373356322074877507
+    second: SNES - Super Bomberman 5 JPN - Stage 01_387
+  - first:
+      213: 4541694810132971773
+    second: SNES - Super Bomberman 5 JPN - Stage 01_388
+  - first:
+      213: -8115754500344568151
+    second: SNES - Super Bomberman 5 JPN - Stage 01_389
+  - first:
+      213: -828190626029901871
+    second: SNES - Super Bomberman 5 JPN - Stage 01_390
+  - first:
+      213: -7454268232286415286
+    second: SNES - Super Bomberman 5 JPN - Stage 01_391
+  - first:
+      213: -8602948577849439250
+    second: SNES - Super Bomberman 5 JPN - Stage 01_392
+  - first:
+      213: -6296591384725924317
+    second: SNES - Super Bomberman 5 JPN - Stage 01_393
+  - first:
+      213: -495170939814661561
+    second: SNES - Super Bomberman 5 JPN - Stage 01_394
+  - first:
+      213: 6820049973379572438
+    second: SNES - Super Bomberman 5 JPN - Stage 01_395
+  - first:
+      213: 274720143731985832
+    second: SNES - Super Bomberman 5 JPN - Stage 01_396
+  - first:
+      213: -3556266597761539380
+    second: SNES - Super Bomberman 5 JPN - Stage 01_397
+  - first:
+      213: 8916618331935022901
+    second: SNES - Super Bomberman 5 JPN - Stage 01_398
+  - first:
+      213: -5898777893049080722
+    second: SNES - Super Bomberman 5 JPN - Stage 01_399
+  - first:
+      213: -3158746627395554977
+    second: SNES - Super Bomberman 5 JPN - Stage 01_400
+  - first:
+      213: -7267405451158584967
+    second: SNES - Super Bomberman 5 JPN - Stage 01_401
+  - first:
+      213: 3593690983599837764
+    second: SNES - Super Bomberman 5 JPN - Stage 01_402
+  - first:
+      213: 1633174095074906420
+    second: SNES - Super Bomberman 5 JPN - Stage 01_403
+  - first:
+      213: 3136163995663155118
+    second: SNES - Super Bomberman 5 JPN - Stage 01_404
+  - first:
+      213: -6802316531067994455
+    second: SNES - Super Bomberman 5 JPN - Stage 01_405
+  - first:
+      213: 1323109236190674167
+    second: SNES - Super Bomberman 5 JPN - Stage 01_406
+  - first:
+      213: -6714728234525583598
+    second: SNES - Super Bomberman 5 JPN - Stage 01_407
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Stage 01_0
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 138
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6be442307e2a66f20800000000000000
+      internalID: 3415596480480956086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Bomberman 5 JPN - Stage 01_1
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 138
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cc5e78a376bcfac0800000000000000
+      internalID: -3819977776052675388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: a4861223ded8128409ef7013b028de60
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -8,7 +8,6 @@ public enum ServerPackets
     Welcome = 1,
     SpawnPlayer,
     PlayerPosition,
-    PlayerRotation
 }
 
 public enum ClientPackets

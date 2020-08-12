@@ -19,7 +19,6 @@
             packet.Write(player.id);
             packet.Write(player.username);
             packet.Write(player.transform.position);
-            packet.Write(player.transform.rotation);
 
             SendTCPData(toClient, packet);
         }
@@ -33,17 +32,6 @@
             packet.Write(player.transform.position);
 
             SendUDPDataToAll(packet);
-        }
-    }
-
-    public static void PlayerRotation(Player player)
-    {
-        using (Packet packet = new Packet((int)ServerPackets.PlayerRotation))
-        {
-            packet.Write(player.id);
-            packet.Write(player.transform.rotation);
-
-            SendUDPDataToAllExcept(player.id, packet);
         }
     }
     #endregion

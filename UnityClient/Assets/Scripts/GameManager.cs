@@ -24,20 +24,32 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public void SpawnPlayer(int id, string username, Vector3 pos, Quaternion rotation)
+    public void SpawnPlayer(int id, string username, Vector3 pos)
     {
         GameObject player;
         if (id == Client.Instance.myId)
         {
-            player = Instantiate(localPlayerPrefab, pos, rotation);
+            player = Instantiate(localPlayerPrefab, pos, Quaternion.identity);
         }
         else
         {
-            player = Instantiate(playerPrefab, pos, rotation);
+            player = Instantiate(playerPrefab, pos, Quaternion.identity);
         }
 
         player.GetComponent<PlayerManager>().ID = id;
         player.GetComponent<PlayerManager>().UserName = username;
         players.Add(id, player.GetComponent<PlayerManager>());
+    }
+
+    public void Disconnect()
+    {
+        ThreadManager.ExecuteOnMainThread(() =>
+        {
+            foreach (PlayerManager playerManager in players.Values)
+            {
+                Destroy(playerManager.gameObject);
+            }
+            UIManager.Instance.ShowMainMenu();
+        });
     }
 }
