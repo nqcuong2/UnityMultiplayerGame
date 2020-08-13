@@ -9,13 +9,18 @@ public class UIManager : MonoBehaviour
     public static UIManager Instance { get; private set; }
 
     public GameObject startMenu;
-    public GameObject chatPanel;
+    public GameObject ingameMenu;
     public GameObject mobileController;
 
     public InputField serverIpField;
     public InputField usernameField;
-
+    public Image avatar;
+    public Text ingameName;
+    public InputField chatField;
+    public Button quitBtn;
     public Button sendBtn;
+
+    public Sprite[] avatarSprites;
 
     private bool leftPressed;
     private bool rightPressed;
@@ -35,28 +40,55 @@ public class UIManager : MonoBehaviour
         }
     }
 
+    private void Start()
+    {
+        sendBtn.onClick.AddListener(() => SendMessage());
+        chatField.onEndEdit.AddListener(delegate { SendMessage(); });
+    }
+
+    private void Update()
+    {
+        if (chatField.isFocused && Input.GetKeyDown(KeyCode.Return))
+        {
+            SendMessage();
+        }
+    }
+
+    private void SendMessage()
+    {
+        if (chatField.text.Length > 0)
+        {
+            Debug.Log(chatField.text);
+            chatField.text = "";
+        }
+    }
+
     public void ConnectToServer()
     {
         if (serverIpField.text.Length != 0 && usernameField.text.Length != 0)
         {
             startMenu.SetActive(false);
-            chatPanel.SetActive(true);
+            ingameMenu.SetActive(true);
 #if UNITY_ANDROID
             mobileController.SetActive(true);
 #endif
+            ingameName.text = usernameField.text;
             Client.Instance.ConnectToServer(serverIpField.text);
+
+            GameManager.Instance.SpawnGameMap();
         }
     }
 
     public void ShowMainMenu()
     {
         startMenu.SetActive(true);
-        chatPanel.SetActive(false);
+        ingameMenu.SetActive(false);
 #if UNITY_ANDROID
         mobileController.SetActive(false);
 #endif
     }
 
+    #region Mobile Devices
     public void LeftEnter()
     {
         ResetInputs();
@@ -92,5 +124,11 @@ public class UIManager : MonoBehaviour
     public bool[] GetInputs()
     {
         return new bool[]{ upPressed, downPressed, leftPressed, rightPressed};
+    }
+    #endregion
+
+    public void SetPlayerAvatar(int avatarIndex)
+    {
+        avatar.sprite = avatarSprites[avatarIndex];
     }
 }

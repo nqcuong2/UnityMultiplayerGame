@@ -98,6 +98,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ID: 0
   UserName: 
+  MaxBomb: 1
 --- !u!114 &982424149794396228
 MonoBehaviour:
   m_ObjectHideFlags: 0

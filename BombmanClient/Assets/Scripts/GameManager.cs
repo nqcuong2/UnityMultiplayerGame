@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -8,8 +9,12 @@ public class GameManager : MonoBehaviour
 
     public static Dictionary<int, PlayerManager> players = new Dictionary<int, PlayerManager>();
 
-    public GameObject localPlayerPrefab;
     public GameObject playerPrefab;
+    public GameObject stagePrefab;
+
+    public Sprite[] playerSprites;
+
+    private GameObject currStage;
 
     private void Awake()
     {
@@ -24,21 +29,28 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public void SpawnPlayer(int id, string username, Vector3 pos)
+    public void SpawnGameMap()
+    {
+        currStage = Instantiate(stagePrefab);
+    }
+
+    
+
+    public void SpawnPlayer(int id, string username, int avatar, Vector3 pos)
     {
         GameObject player;
         if (id == Client.Instance.myId)
         {
-            player = Instantiate(localPlayerPrefab, pos, Quaternion.identity);
+            UIManager.Instance.SetPlayerAvatar(avatar);
         }
-        else
-        {
-            player = Instantiate(playerPrefab, pos, Quaternion.identity);
-        }
+
+        playerPrefab.GetComponent<SpriteRenderer>().sprite = playerSprites[avatar];
+        player = Instantiate(playerPrefab, pos, Quaternion.identity);
 
         player.GetComponent<PlayerManager>().ID = id;
         player.GetComponent<PlayerManager>().UserName = username;
         players.Add(id, player.GetComponent<PlayerManager>());
+
     }
 
     public void Disconnect()
@@ -49,7 +61,13 @@ public class GameManager : MonoBehaviour
             {
                 Destroy(playerManager.gameObject);
             }
+            DestroyGameMap();
             UIManager.Instance.ShowMainMenu();
         });
+    }
+
+    private void DestroyGameMap()
+    {
+        Destroy(currStage);
     }
 }

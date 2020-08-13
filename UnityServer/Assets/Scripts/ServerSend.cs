@@ -18,6 +18,7 @@
         {
             packet.Write(player.id);
             packet.Write(player.username);
+            packet.Write(player.avatar);
             packet.Write(player.transform.position);
 
             SendTCPData(toClient, packet);

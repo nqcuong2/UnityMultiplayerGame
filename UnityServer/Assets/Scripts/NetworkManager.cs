@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -7,6 +8,15 @@ public class NetworkManager : MonoBehaviour
     public static NetworkManager Instance { get; private set; }
 
     public GameObject playerPrefab;
+
+    private int nextPlayerIndex = 0;
+    private Vector2[] playerPositions =
+    {
+        new Vector2(-8.2994f, 4.437201f),
+        new Vector2(4.478397f, 4.437201f),
+        new Vector2(-8.2994f, -4.4514f),
+        new Vector2(4.478397f, -4.4514f)
+    };
 
     private void Awake()
     {
@@ -26,7 +36,7 @@ public class NetworkManager : MonoBehaviour
         QualitySettings.vSyncCount = 0;
         Application.targetFrameRate = 30;
 
-        Server.Start(50, 26950);
+        Server.Start(4, 26950);
     }
 
     private void OnApplicationQuit()
@@ -34,8 +44,10 @@ public class NetworkManager : MonoBehaviour
         Server.Stop();
     }
 
-    public Player InstantiatePlayer()
+    public Player  InstantiatePlayer()
     {
-        return Instantiate(playerPrefab, Vector3.zero, Quaternion.identity).GetComponent<Player>();
+        Player player = Instantiate(playerPrefab, playerPositions[nextPlayerIndex], Quaternion.identity).GetComponent<Player>();
+        player.avatar = nextPlayerIndex++;
+        return player;
     }
 }

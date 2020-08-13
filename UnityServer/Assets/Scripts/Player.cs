@@ -4,6 +4,7 @@ public class Player : MonoBehaviour
 {
     public int id;
     public string username;
+    public int avatar;
     public float moveSpeed = 2f;
     private Rigidbody2D rb2D;
 

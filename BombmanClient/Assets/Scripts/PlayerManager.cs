@@ -6,4 +6,5 @@ public class PlayerManager : MonoBehaviour
 {
     public int ID;
     public string UserName;
+    public int MaxBomb = 1;
 }
