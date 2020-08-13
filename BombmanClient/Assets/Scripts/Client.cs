@@ -4,13 +4,14 @@ using UnityEngine;
 using System.Net;
 using System.Net.Sockets;
 using System;
+using System.IO;
 
 public class Client : MonoBehaviour
 {
     public static Client Instance { get; private set; }
     public static int dataBufferSize = 4096;
 
-    public string ip = "127.0.0.1";
+    public string serverIP;
     public int port = 26950;
     public int myId = 0;
     public TCP tcp;
@@ -57,12 +58,14 @@ public class Client : MonoBehaviour
         }
     }
 
-    public void ConnectToServer()
+    public void ConnectToServer(string serverIP)
     {
         InitializeClientData();
 
+        this.serverIP = serverIP;
         isConnected = true;
         tcp.Connect();
+        udp.SetEndPoint();
     }
 
     private void InitializeClientData()
@@ -93,7 +96,7 @@ public class Client : MonoBehaviour
             };
 
             receiveBuffer = new byte[dataBufferSize];
-            socket.BeginConnect(Instance.ip, Instance.port, ConnectCallback, socket);
+            socket.BeginConnect(Instance.serverIP, Instance.port, ConnectCallback, socket);
         }
 
         private void ConnectCallback(IAsyncResult result)
@@ -212,9 +215,9 @@ public class Client : MonoBehaviour
         public UdpClient socket;
         public IPEndPoint endPoint;
 
-        public UDP()
+        public void SetEndPoint()
         {
-            endPoint = new IPEndPoint(IPAddress.Parse(Instance.ip), Instance.port);
+            endPoint = new IPEndPoint(IPAddress.Parse(Instance.serverIP), Instance.port);
         }
 
         // This localPort is different from server port #

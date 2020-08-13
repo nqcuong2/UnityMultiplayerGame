@@ -11,15 +11,17 @@ public class PlayerController : MonoBehaviour
 
     private void SendInputToServer()
     {
+#if UNITY_STANDALONE
         bool[] inputs =
         {
-            Input.GetKey(KeyCode.W),
-            Input.GetKey(KeyCode.S),
-            Input.GetKey(KeyCode.A),
-            Input.GetKey(KeyCode.D),
-            //Input.GetKey(KeyCode.Space)
+            Input.GetKey(KeyCode.UpArrow),
+            Input.GetKey(KeyCode.DownArrow),
+            Input.GetKey(KeyCode.LeftArrow),
+            Input.GetKey(KeyCode.RightArrow),
         };
-
+#else
+        bool[] inputs = UIManager.Instance.GetInputs();
+#endif
         ClientSend.PlayerMovement(inputs);
     }
 }
