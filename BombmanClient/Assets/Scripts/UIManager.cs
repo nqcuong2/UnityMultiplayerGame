@@ -1,7 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.EventSystems;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
@@ -11,6 +8,10 @@ public class UIManager : MonoBehaviour
     public GameObject startMenu;
     public GameObject ingameMenu;
     public GameObject mobileController;
+
+    public GameObject messageContainer;
+    public GameObject localMsgPref;
+    public GameObject msgPref;
 
     public InputField serverIpField;
     public InputField usernameField;
@@ -46,21 +47,23 @@ public class UIManager : MonoBehaviour
         chatField.onEndEdit.AddListener(delegate { SendMessage(); });
     }
 
-    private void Update()
-    {
-        if (chatField.isFocused && Input.GetKeyDown(KeyCode.Return))
-        {
-            SendMessage();
-        }
-    }
-
     private void SendMessage()
     {
         if (chatField.text.Length > 0)
         {
-            Debug.Log(chatField.text);
+            string msg = $"Me: {chatField.text}";
+            var msgObj = Instantiate(localMsgPref, messageContainer.transform);
+            msgObj.GetComponent<Text>().text = msg;
+            ClientSend.SendChatMsg(msg);
             chatField.text = "";
+            chatField.ActivateInputField();
         }
+    }
+
+    public void AddMessage(string username, string message)
+    {
+        var msg = Instantiate(msgPref, messageContainer.transform);
+        msg.GetComponent<Text>().text = $"{username}: {message}";
     }
 
     public void ConnectToServer()

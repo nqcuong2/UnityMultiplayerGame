@@ -44,6 +44,7 @@ public class Server
         packetHandlers = new Dictionary<int, PacketHandler>()
             {
                 { (int)ClientPackets.WelcomeReceived, ServerHandle.WelcomeReceived },
+                { (int)ClientPackets.SendChatMsg, ServerHandle.ReceiveChatMsg },
                 { (int)ClientPackets.PlayerMovement, ServerHandle.PlayerMovement },
             };
         Debug.Log("Initialized packets");

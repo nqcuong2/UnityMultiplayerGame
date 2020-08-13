@@ -12,6 +12,16 @@
         }
     }
 
+    public static void SendChatMsg(int exceptClient, string message)
+    {
+        using (Packet packet = new Packet((int)ServerPackets.SendChatMsg))
+        {
+            packet.Write(exceptClient);
+            packet.Write(message);
+            SendTCPDataToAllExcept(exceptClient, packet);
+        }
+    }
+
     public static void SpawnPlayer(int toClient, Player player)
     {
         using (Packet packet = new Packet((int)ServerPackets.SpawnPlayer))

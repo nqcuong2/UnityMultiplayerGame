@@ -17,6 +17,13 @@ public class ClientHandle : MonoBehaviour
         Client.Instance.udp.Connect(((IPEndPoint)Client.Instance.tcp.socket.Client.LocalEndPoint).Port);
     }
 
+    public static void ReceiveChatMsg(Packet packet)
+    {
+        int id = packet.ReadInt();
+        string message = packet.ReadString();
+        UIManager.Instance.AddMessage(GameManager.players[id].UserName, message);
+    }
+
     public static void SpawnPlayer(Packet packet)
     {
         int id = packet.ReadInt();

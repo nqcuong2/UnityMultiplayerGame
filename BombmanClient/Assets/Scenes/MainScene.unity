@@ -553,6 +553,7 @@ GameObject:
   - component: {fileID: 221988793}
   - component: {fileID: 221988792}
   - component: {fileID: 221988791}
+  - component: {fileID: 221988794}
   m_Layer: 5
   m_Name: ChatField
   m_TagString: Untagged
@@ -681,6 +682,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 221988789}
   m_CullTransparentMesh: 0
+--- !u!114 &221988794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 221988789}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates: []
 --- !u!1 &230492802
 GameObject:
   m_ObjectHideFlags: 0
@@ -2470,7 +2484,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 10
   m_TargetDisplay: 0
 --- !u!224 &1385804343
 RectTransform:
@@ -2509,6 +2523,10 @@ MonoBehaviour:
   startMenu: {fileID: 1924361041}
   ingameMenu: {fileID: 466263846}
   mobileController: {fileID: 784163797}
+  messageContainer: {fileID: 133505076}
+  localMsgPref: {fileID: 5184683878168888879, guid: dcd2b60f3c6e6f147b062459072a1db5,
+    type: 3}
+  msgPref: {fileID: 7489244468358093938, guid: a8410283f02580740b8387b0aaeb1681, type: 3}
   serverIpField: {fileID: 2020187653}
   usernameField: {fileID: 1751247405}
   avatar: {fileID: 1924316447}

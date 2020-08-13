@@ -73,6 +73,7 @@ public class Client : MonoBehaviour
         packetHandlers = new Dictionary<int, PacketHandler>()
         {
             { (int)ServerPackets.Welcome, ClientHandle.Welcome },
+            { (int)ServerPackets.SendChatMsg, ClientHandle.ReceiveChatMsg },
             { (int)ServerPackets.SpawnPlayer, ClientHandle.SpawnPlayer },
             { (int)ServerPackets.PlayerPosition, ClientHandle.PlayerPosition },
         };

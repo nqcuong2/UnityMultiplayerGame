@@ -6,6 +6,7 @@ using UnityEngine;
 public enum ServerPackets
 {
     Welcome = 1,
+    SendChatMsg,
     SpawnPlayer,
     PlayerPosition,
 }
@@ -13,6 +14,7 @@ public enum ServerPackets
 public enum ClientPackets
 {
     WelcomeReceived = 1,
+    SendChatMsg,
     PlayerMovement
 }
 

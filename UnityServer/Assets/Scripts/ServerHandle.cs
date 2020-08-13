@@ -19,6 +19,13 @@ public class ServerHandle
         Server.clients[fromClient].SendIntoGame(username);
     }
 
+    public static void ReceiveChatMsg(int fromClient, Packet packet)
+    {
+        int clientIdCheck = packet.ReadInt();
+        string msg = packet.ReadString();
+        ServerSend.SendChatMsg(fromClient, msg);
+    }
+
     public static void PlayerMovement(int fromClient, Packet packet)
     {
         bool[] inputs = new bool[packet.ReadInt()];
