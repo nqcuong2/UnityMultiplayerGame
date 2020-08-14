@@ -8,6 +8,7 @@ public class UIManager : MonoBehaviour
     public GameObject startMenu;
     public GameObject ingameMenu;
     public GameObject mobileController;
+    public GameObject serverMsg;
 
     public GameObject messageContainer;
     public GameObject localMsgPref;
@@ -18,8 +19,10 @@ public class UIManager : MonoBehaviour
     public Image avatar;
     public Text ingameName;
     public InputField chatField;
+    public Button bombBtn;
     public Button quitBtn;
     public Button sendBtn;
+    public Button closeBtn;
 
     public Sprite[] avatarSprites;
 
@@ -44,6 +47,9 @@ public class UIManager : MonoBehaviour
     private void Start()
     {
         sendBtn.onClick.AddListener(() => SendMessage());
+        bombBtn.onClick.AddListener(() => GameManager.Instance.SpawnMyBomb());
+        quitBtn.onClick.AddListener(() => QuitToStartMenu());
+        closeBtn.onClick.AddListener(() => serverMsg.SetActive(false));
         chatField.onEndEdit.AddListener(delegate { SendMessage(); });
     }
 
@@ -66,20 +72,35 @@ public class UIManager : MonoBehaviour
         msg.GetComponent<Text>().text = $"{username}: {message}";
     }
 
+    public void QuitToStartMenu()
+    {
+        Client.Instance.Disconnect();
+    }
+
+    public void ShowMessageFromServer(string msg)
+    {
+        serverMsg.GetComponentsInChildren<Text>()[0].text = msg;
+        serverMsg.SetActive(true);
+    }
+
     public void ConnectToServer()
     {
         if (serverIpField.text.Length != 0 && usernameField.text.Length != 0)
         {
-            startMenu.SetActive(false);
-            ingameMenu.SetActive(true);
+            Client.Instance.ConnectToServer(serverIpField.text);
+        }
+    }
+
+    public void ConnectSucceed()
+    {
+        startMenu.SetActive(false);
+        ingameMenu.SetActive(true);
 #if UNITY_ANDROID
             mobileController.SetActive(true);
 #endif
-            ingameName.text = usernameField.text;
-            Client.Instance.ConnectToServer(serverIpField.text);
+        ingameName.text = usernameField.text;
 
-            GameManager.Instance.SpawnGameMap();
-        }
+        GameManager.Instance.SpawnGameMap();
     }
 
     public void ShowMainMenu()

@@ -45,7 +45,7 @@ public class Client : MonoBehaviour
         Disconnect();
     }
 
-    private void Disconnect()
+    public void Disconnect()
     {
         if (isConnected)
         {
@@ -73,6 +73,7 @@ public class Client : MonoBehaviour
         packetHandlers = new Dictionary<int, PacketHandler>()
         {
             { (int)ServerPackets.Welcome, ClientHandle.Welcome },
+            { (int)ServerPackets.ConnectionDenied, ClientHandle.ConnectionDenied },
             { (int)ServerPackets.SendChatMsg, ClientHandle.ReceiveChatMsg },
             { (int)ServerPackets.SpawnPlayer, ClientHandle.SpawnPlayer },
             { (int)ServerPackets.PlayerPosition, ClientHandle.PlayerPosition },
@@ -124,6 +125,10 @@ public class Client : MonoBehaviour
                 int byteLength = stream.EndRead(result);
                 if (byteLength <= 0)
                 {
+                    ThreadManager.ExecuteOnMainThread(() =>
+                    {
+                        UIManager.Instance.ShowMessageFromServer("Server is full!");
+                    });
                     Instance.Disconnect();
                     return;
                 }

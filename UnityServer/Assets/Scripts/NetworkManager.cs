@@ -44,7 +44,7 @@ public class NetworkManager : MonoBehaviour
         Server.Stop();
     }
 
-    public Player  InstantiatePlayer()
+    public Player InstantiatePlayer()
     {
         Player player = Instantiate(playerPrefab, playerPositions[nextPlayerIndex], Quaternion.identity).GetComponent<Player>();
         player.avatar = nextPlayerIndex++;

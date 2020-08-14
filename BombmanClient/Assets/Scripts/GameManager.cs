@@ -97,8 +97,8 @@ public class GameManager : MonoBehaviour
 
     public void SpawnPlayer(int id, string username, int avatar, Vector3 pos)
     {
-        playerPrefab.GetComponent<SpriteRenderer>().sprite = playerSprites[avatar];
         GameObject player = Instantiate(playerPrefab, pos, Quaternion.identity);
+        player.GetComponent<SpriteRenderer>().sprite = playerSprites[avatar];
         player.GetComponent<PlayerManager>().ID = id;
         player.GetComponent<PlayerManager>().UserName = username;
         players.Add(id, player.GetComponent<PlayerManager>());
@@ -118,17 +118,13 @@ public class GameManager : MonoBehaviour
     {
         ThreadManager.ExecuteOnMainThread(() =>
         {
+            Destroy(currStage);
             foreach (PlayerManager playerManager in players.Values)
             {
                 Destroy(playerManager.gameObject);
             }
-            DestroyGameMap();
+            players.Clear();
             UIManager.Instance.ShowMainMenu();
         });
-    }
-
-    private void DestroyGameMap()
-    {
-        Destroy(currStage);
     }
 }

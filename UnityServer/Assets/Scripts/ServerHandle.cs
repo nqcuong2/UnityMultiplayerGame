@@ -8,6 +8,15 @@ public class ServerHandle
         int clientIdCheck = packet.ReadInt();
         string username = packet.ReadString();
 
+        foreach (Client client in Server.clients.Values)
+        {
+            if (client.player != null && client.player.username == username)
+            {
+                ServerSend.ConnectionDenied(fromClient, "Your name is already existed!");
+                return;
+            }
+        }
+
         Debug.Log($"{Server.clients[fromClient].tcp.socket.Client.RemoteEndPoint} connected successfully and is now player {fromClient}.");
 
         // Should not occur otherwise sth goes wrong

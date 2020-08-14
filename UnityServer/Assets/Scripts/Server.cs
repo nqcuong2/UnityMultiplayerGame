@@ -130,6 +130,14 @@ public class Server
 
     public static void Stop()
     {
+        foreach (Client client in clients.Values)
+        {
+            if (client.player != null)
+            {
+                client.Disconnect();
+            }
+        }
+
         tcpListener.Stop();
         udpListener.Close();
     }

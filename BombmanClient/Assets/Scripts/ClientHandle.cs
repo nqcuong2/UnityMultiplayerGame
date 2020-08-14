@@ -17,6 +17,14 @@ public class ClientHandle : MonoBehaviour
         Client.Instance.udp.Connect(((IPEndPoint)Client.Instance.tcp.socket.Client.LocalEndPoint).Port);
     }
 
+    public static void ConnectionDenied(Packet packet)
+    {
+        string msg = packet.ReadString();
+        Client.Instance.Disconnect();
+        Debug.Log($"Message from server: {msg}");
+        UIManager.Instance.ShowMessageFromServer(msg);
+    }
+
     public static void ReceiveChatMsg(Packet packet)
     {
         int id = packet.ReadInt();
@@ -26,6 +34,8 @@ public class ClientHandle : MonoBehaviour
 
     public static void SpawnPlayer(Packet packet)
     {
+        UIManager.Instance.ConnectSucceed();
+
         int id = packet.ReadInt();
         string username = packet.ReadString();
         int avatar = packet.ReadInt();
@@ -39,7 +49,12 @@ public class ClientHandle : MonoBehaviour
         int id = packet.ReadInt();
         Vector3 position = packet.ReadVector3();
 
-        GameManager.players[id].transform.position = position;
+        // Prevent the case where player is already disconnected and removed from the list
+        // but due to multithreading, the function still executes
+        if (GameManager.players.ContainsKey(id))
+        {
+            GameManager.players[id].transform.position = position;
+        }
     }
 
     public static void SpawnBomb(Packet packet)

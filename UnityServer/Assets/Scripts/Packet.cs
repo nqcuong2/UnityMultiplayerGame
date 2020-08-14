@@ -6,6 +6,7 @@ using UnityEngine;
 public enum ServerPackets
 {
     Welcome = 1,
+    ConnectionDenied,
     SendChatMsg,
     SpawnPlayer,
     PlayerPosition,

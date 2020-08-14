@@ -1,6 +1,19 @@
-﻿public class ServerSend
+﻿using UnityEngine;
+
+public class ServerSend
 {
     #region Packets
+    public static void ConnectionDenied(int toClient, string msg)
+    {
+        using (Packet packet = new Packet((int)ServerPackets.ConnectionDenied))
+        {
+            packet.Write(msg);
+            packet.Write(toClient);
+
+            SendTCPData(toClient, packet);
+        }
+    }
+
     public static void Welcome(int toClient, string msg)
     {
         using (Packet packet = new Packet((int)ServerPackets.Welcome))
