@@ -11,6 +11,7 @@ public enum ServerPackets
     SpawnPlayer,
     PlayerPosition,
     SpawnBomb,
+    PlayerDisconnect,
 }
 
 public enum ClientPackets

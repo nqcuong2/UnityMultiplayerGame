@@ -68,6 +68,15 @@ public class ServerSend
             SendTCPDataToAllExcept(exceptClient, packet);
         }
     }
+
+    public static void PlayerDisconnect(int disconnectedClient)
+    {
+        using (Packet packet = new Packet((int)ServerPackets.PlayerDisconnect))
+        {
+            packet.Write(disconnectedClient);
+            SendTCPDataToAll(packet);
+        }
+    }
     #endregion
 
     #region TCP

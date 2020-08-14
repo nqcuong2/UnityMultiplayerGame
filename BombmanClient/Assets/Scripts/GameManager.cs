@@ -114,6 +114,13 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    public void RemovePlayer(int id)
+    {
+        GameObject player = players[id].gameObject;
+        Destroy(player);
+        players.Remove(id);
+    }
+
     public void Disconnect()
     {
         ThreadManager.ExecuteOnMainThread(() =>

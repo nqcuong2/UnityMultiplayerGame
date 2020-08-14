@@ -63,4 +63,10 @@ public class ClientHandle : MonoBehaviour
         Vector2 position = packet.ReadVector2();
         GameManager.Instance.SpawnBomb(owner, position);
     }
+
+    public static void PlayerDisconnect(Packet packet)
+    {
+        int id = packet.ReadInt();
+        GameManager.Instance.RemovePlayer(id);
+    }
 }

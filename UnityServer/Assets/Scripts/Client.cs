@@ -114,6 +114,8 @@ public class Client
                 if (byteLength <= 0)
                 {
                     Server.clients[id].Disconnect();
+                    ServerSend.PlayerDisconnect(id);
+
                     return;
                 }
 
@@ -127,6 +129,7 @@ public class Client
             {
                 Debug.Log($"Error receiving TCP data: {e}");
                 Server.clients[id].Disconnect();
+                ServerSend.PlayerDisconnect(id);
             }
         }
 

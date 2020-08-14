@@ -17,7 +17,7 @@ public class Client : MonoBehaviour
     public TCP tcp;
     public UDP udp;
 
-    private bool isConnected;
+    public bool IsConnected { get; private set; }
     private delegate void PacketHandler(Packet packet);
     private static Dictionary<int, PacketHandler> packetHandlers;
 
@@ -47,9 +47,9 @@ public class Client : MonoBehaviour
 
     public void Disconnect()
     {
-        if (isConnected)
+        if (IsConnected)
         {
-            isConnected = false;
+            IsConnected = false;
             tcp.socket.Close();
             udp.socket.Close();
 
@@ -63,9 +63,11 @@ public class Client : MonoBehaviour
         InitializeClientData();
 
         this.serverIP = serverIP;
-        isConnected = true;
-        tcp.Connect();
-        udp.SetEndPoint();
+        IsConnected = true;
+        if (tcp.Connect())
+        {
+            udp.SetEndPoint();
+        }
     }
 
     private void InitializeClientData()
@@ -78,6 +80,7 @@ public class Client : MonoBehaviour
             { (int)ServerPackets.SpawnPlayer, ClientHandle.SpawnPlayer },
             { (int)ServerPackets.PlayerPosition, ClientHandle.PlayerPosition },
             { (int)ServerPackets.SpawnBomb, ClientHandle.SpawnBomb },
+            { (int)ServerPackets.PlayerDisconnect, ClientHandle.PlayerDisconnect },
         };
         Debug.Log("Initialized packets.");
     }
@@ -90,7 +93,7 @@ public class Client : MonoBehaviour
         private Packet receivedData;
         private byte[] receiveBuffer;
 
-        public void Connect()
+        public bool Connect()
         {
             socket = new TcpClient
             {
@@ -99,7 +102,17 @@ public class Client : MonoBehaviour
             };
 
             receiveBuffer = new byte[dataBufferSize];
-            socket.BeginConnect(Instance.serverIP, Instance.port, ConnectCallback, socket);
+            try
+            {
+                socket.BeginConnect(Instance.serverIP, Instance.port, ConnectCallback, socket);
+            }
+            catch (Exception e)
+            {
+                UIManager.Instance.ShowMessageFromServer(e.Message);
+                return false;
+            }
+
+            return true;
         }
 
         private void ConnectCallback(IAsyncResult result)
@@ -125,10 +138,14 @@ public class Client : MonoBehaviour
                 int byteLength = stream.EndRead(result);
                 if (byteLength <= 0)
                 {
-                    ThreadManager.ExecuteOnMainThread(() =>
+                    if (!Instance.IsConnected)
                     {
-                        UIManager.Instance.ShowMessageFromServer("Server is full!");
-                    });
+                        ThreadManager.ExecuteOnMainThread(() =>
+                        {
+                            UIManager.Instance.ShowMessageFromServer("Server is full!");
+                        });
+                    }
+                    
                     Instance.Disconnect();
                     return;
                 }
