@@ -54,7 +54,7 @@ public class UIManager : MonoBehaviour
             string msg = $"Me: {chatField.text}";
             var msgObj = Instantiate(localMsgPref, messageContainer.transform);
             msgObj.GetComponent<Text>().text = msg;
-            ClientSend.SendChatMsg(msg);
+            ClientSend.SendChatMsg(chatField.text);
             chatField.text = "";
             chatField.ActivateInputField();
         }

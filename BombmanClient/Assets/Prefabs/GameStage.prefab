@@ -67,9 +67,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1999437488974704117}
   - component: {fileID: 1999437488974704116}
-  - component: {fileID: 1899244733825004472}
   m_Layer: 0
-  m_Name: Wall (21)
+  m_Name: Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -140,32 +139,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &1899244733825004472
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1999437488974704118}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.15, y: 0.15}
-    newSize: {x: 0.15, y: 0.15}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.15, y: 0.15}
-  m_EdgeRadius: 0
 --- !u!1 &1999437488988769623
 GameObject:
   m_ObjectHideFlags: 0
@@ -177,12 +150,12 @@ GameObject:
   - component: {fileID: 1999437488988769622}
   - component: {fileID: 1999437488988769621}
   m_Layer: 0
-  m_Name: Wall (79)
+  m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1999437488988769622
 Transform:
   m_ObjectHideFlags: 0
@@ -236,7 +209,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 3415596480480956086, guid: ab943847cc503d54eae01f212c432616,
+  m_Sprite: {fileID: -3819977776052675388, guid: ab943847cc503d54eae01f212c432616,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -259,12 +232,12 @@ GameObject:
   - component: {fileID: 1999437488993060016}
   - component: {fileID: 1999437488993060031}
   m_Layer: 0
-  m_Name: Wall (62)
+  m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1999437488993060016
 Transform:
   m_ObjectHideFlags: 0
@@ -318,7 +291,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 3415596480480956086, guid: ab943847cc503d54eae01f212c432616,
+  m_Sprite: {fileID: -3819977776052675388, guid: ab943847cc503d54eae01f212c432616,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -341,12 +314,12 @@ GameObject:
   - component: {fileID: 1999437488996858379}
   - component: {fileID: 1999437488996858378}
   m_Layer: 0
-  m_Name: Wall (102)
+  m_Name: Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1999437488996858379
 Transform:
   m_ObjectHideFlags: 0
@@ -423,12 +396,12 @@ GameObject:
   - component: {fileID: 1999437489072287032}
   - component: {fileID: 1999437489072287015}
   m_Layer: 0
-  m_Name: Wall (84)
+  m_Name: Empty
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1999437489072287032
 Transform:
   m_ObjectHideFlags: 0
@@ -482,9 +455,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 3415596480480956086, guid: ab943847cc503d54eae01f212c432616,
+  m_Sprite: {fileID: -3819977776052675388, guid: ab943847cc503d54eae01f212c432616,
     type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -505,12 +478,12 @@ GameObject:
   - component: {fileID: 1999437489094207518}
   - component: {fileID: 1999437489094207517}
   m_Layer: 0
-  m_Name: Wall (99)
+  m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1999437489094207518
 Transform:
   m_ObjectHideFlags: 0
@@ -564,7 +537,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 3415596480480956086, guid: ab943847cc503d54eae01f212c432616,
+  m_Sprite: {fileID: -3819977776052675388, guid: ab943847cc503d54eae01f212c432616,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -586,9 +559,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1999437489110915583}
   - component: {fileID: 1999437489110915582}
-  - component: {fileID: 1595679278675096430}
   m_Layer: 0
-  m_Name: Wall (43)
+  m_Name: Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -659,32 +631,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &1595679278675096430
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1999437489110915568}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.15, y: 0.15}
-    newSize: {x: 0.15, y: 0.15}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.15, y: 0.15}
-  m_EdgeRadius: 0
 --- !u!1 &1999437489127599698
 GameObject:
   m_ObjectHideFlags: 0
@@ -696,12 +642,12 @@ GameObject:
   - component: {fileID: 1999437489127599697}
   - component: {fileID: 1999437489127599696}
   m_Layer: 0
-  m_Name: Wall (56)
+  m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1999437489127599697
 Transform:
   m_ObjectHideFlags: 0
@@ -755,7 +701,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 3415596480480956086, guid: ab943847cc503d54eae01f212c432616,
+  m_Sprite: {fileID: -3819977776052675388, guid: ab943847cc503d54eae01f212c432616,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -778,12 +724,12 @@ GameObject:
   - component: {fileID: 1999437489127772011}
   - component: {fileID: 1999437489127772010}
   m_Layer: 0
-  m_Name: Wall (11)
+  m_Name: Empty
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1999437489127772011
 Transform:
   m_ObjectHideFlags: 0
@@ -837,9 +783,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 3415596480480956086, guid: ab943847cc503d54eae01f212c432616,
+  m_Sprite: {fileID: -3819977776052675388, guid: ab943847cc503d54eae01f212c432616,
     type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -860,12 +806,12 @@ GameObject:
   - component: {fileID: 1999437489148297040}
   - component: {fileID: 1999437489148297055}
   m_Layer: 0
-  m_Name: Wall (81)
+  m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1999437489148297040
 Transform:
   m_ObjectHideFlags: 0
@@ -919,7 +865,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 3415596480480956086, guid: ab943847cc503d54eae01f212c432616,
+  m_Sprite: {fileID: -3819977776052675388, guid: ab943847cc503d54eae01f212c432616,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -942,12 +888,12 @@ GameObject:
   - component: {fileID: 1999437489153591201}
   - component: {fileID: 1999437489153591200}
   m_Layer: 0
-  m_Name: Wall (60)
+  m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1999437489153591201
 Transform:
   m_ObjectHideFlags: 0
@@ -1001,7 +947,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 3415596480480956086, guid: ab943847cc503d54eae01f212c432616,
+  m_Sprite: {fileID: -3819977776052675388, guid: ab943847cc503d54eae01f212c432616,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1024,12 +970,12 @@ GameObject:
   - component: {fileID: 1999437489161130863}
   - component: {fileID: 1999437489161130862}
   m_Layer: 0
-  m_Name: Wall (27)
+  m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1999437489161130863
 Transform:
   m_ObjectHideFlags: 0
@@ -1083,7 +1029,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 3415596480480956086, guid: ab943847cc503d54eae01f212c432616,
+  m_Sprite: {fileID: -3819977776052675388, guid: ab943847cc503d54eae01f212c432616,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1106,12 +1052,12 @@ GameObject:
   - component: {fileID: 1999437489179117280}
   - component: {fileID: 1999437489179117295}
   m_Layer: 0
-  m_Name: Wall (66)
+  m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1999437489179117280
 Transform:
   m_ObjectHideFlags: 0
@@ -1165,7 +1111,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 3415596480480956086, guid: ab943847cc503d54eae01f212c432616,
+  m_Sprite: {fileID: -3819977776052675388, guid: ab943847cc503d54eae01f212c432616,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1187,9 +1133,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1999437489191837168}
   - component: {fileID: 1999437489191837183}
-  - component: {fileID: 5711623423820384981}
   m_Layer: 0
-  m_Name: Wall (65)
+  m_Name: Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1260,32 +1205,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &5711623423820384981
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1999437489191837169}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.15, y: 0.15}
-    newSize: {x: 0.15, y: 0.15}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.15, y: 0.15}
-  m_EdgeRadius: 0
 --- !u!1 &1999437489213856129
 GameObject:
   m_ObjectHideFlags: 0
@@ -1297,12 +1216,12 @@ GameObject:
   - component: {fileID: 1999437489213856128}
   - component: {fileID: 1999437489213856143}
   m_Layer: 0
-  m_Name: Wall (64)
+  m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1999437489213856128
 Transform:
   m_ObjectHideFlags: 0
@@ -1356,7 +1275,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 3415596480480956086, guid: ab943847cc503d54eae01f212c432616,
+  m_Sprite: {fileID: -3819977776052675388, guid: ab943847cc503d54eae01f212c432616,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1379,12 +1298,12 @@ GameObject:
   - component: {fileID: 1999437489273183605}
   - component: {fileID: 1999437489273183604}
   m_Layer: 0
-  m_Name: Wall (93)
+  m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1999437489273183605
 Transform:
   m_ObjectHideFlags: 0
@@ -1438,7 +1357,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 3415596480480956086, guid: ab943847cc503d54eae01f212c432616,
+  m_Sprite: {fileID: -3819977776052675388, guid: ab943847cc503d54eae01f212c432616,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1460,9 +1379,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1999437489290200563}
   - component: {fileID: 1999437489290200562}
-  - component: {fileID: 4998984661136049682}
   m_Layer: 0
-  m_Name: Wall (94)
+  m_Name: Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1533,32 +1451,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &4998984661136049682
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1999437489290200564}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.15, y: 0.15}
-    newSize: {x: 0.15, y: 0.15}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.15, y: 0.15}
-  m_EdgeRadius: 0
 --- !u!1 &1999437489315219562
 GameObject:
   m_ObjectHideFlags: 0
@@ -1570,12 +1462,12 @@ GameObject:
   - component: {fileID: 1999437489315219561}
   - component: {fileID: 1999437489315219560}
   m_Layer: 0
-  m_Name: Wall (100)
+  m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1999437489315219561
 Transform:
   m_ObjectHideFlags: 0
@@ -1629,7 +1521,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 3415596480480956086, guid: ab943847cc503d54eae01f212c432616,
+  m_Sprite: {fileID: -3819977776052675388, guid: ab943847cc503d54eae01f212c432616,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1652,12 +1544,12 @@ GameObject:
   - component: {fileID: 1999437489339409101}
   - component: {fileID: 1999437489339409100}
   m_Layer: 0
-  m_Name: Wall (90)
+  m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1999437489339409101
 Transform:
   m_ObjectHideFlags: 0
@@ -1711,7 +1603,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 3415596480480956086, guid: ab943847cc503d54eae01f212c432616,
+  m_Sprite: {fileID: -3819977776052675388, guid: ab943847cc503d54eae01f212c432616,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1734,12 +1626,12 @@ GameObject:
   - component: {fileID: 1999437489344513312}
   - component: {fileID: 1999437489344513327}
   m_Layer: 0
-  m_Name: Wall (104)
+  m_Name: Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1999437489344513312
 Transform:
   m_ObjectHideFlags: 0
@@ -1816,12 +1708,12 @@ GameObject:
   - component: {fileID: 1999437489355825670}
   - component: {fileID: 1999437489355825669}
   m_Layer: 0
-  m_Name: Wall (31)
+  m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1999437489355825670
 Transform:
   m_ObjectHideFlags: 0
@@ -1875,7 +1767,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 3415596480480956086, guid: ab943847cc503d54eae01f212c432616,
+  m_Sprite: {fileID: -3819977776052675388, guid: ab943847cc503d54eae01f212c432616,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1898,12 +1790,12 @@ GameObject:
   - component: {fileID: 1999437489366329165}
   - component: {fileID: 1999437489366329164}
   m_Layer: 0
-  m_Name: Wall (53)
+  m_Name: Empty
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1999437489366329165
 Transform:
   m_ObjectHideFlags: 0
@@ -1957,9 +1849,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 3415596480480956086, guid: ab943847cc503d54eae01f212c432616,
+  m_Sprite: {fileID: -3819977776052675388, guid: ab943847cc503d54eae01f212c432616,
     type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1979,9 +1871,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1999437489382658233}
   - component: {fileID: 1999437489382658232}
-  - component: {fileID: 8129592608256538234}
   m_Layer: 0
-  m_Name: Wall (13)
+  m_Name: Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2052,32 +1943,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &8129592608256538234
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1999437489382658234}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.15, y: 0.15}
-    newSize: {x: 0.15, y: 0.15}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.15, y: 0.15}
-  m_EdgeRadius: 0
 --- !u!1 &1999437489393961456
 GameObject:
   m_ObjectHideFlags: 0
@@ -2088,9 +1953,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1999437489393961471}
   - component: {fileID: 1999437489393961470}
-  - component: {fileID: 4736861629000520907}
   m_Layer: 0
-  m_Name: Wall (41)
+  m_Name: Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2161,32 +2025,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &4736861629000520907
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1999437489393961456}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.15, y: 0.15}
-    newSize: {x: 0.15, y: 0.15}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.15, y: 0.15}
-  m_EdgeRadius: 0
 --- !u!1 &1999437489416631086
 GameObject:
   m_ObjectHideFlags: 0
@@ -2198,12 +2036,12 @@ GameObject:
   - component: {fileID: 1999437489416631085}
   - component: {fileID: 1999437489416631084}
   m_Layer: 0
-  m_Name: Wall (97)
+  m_Name: Empty
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1999437489416631085
 Transform:
   m_ObjectHideFlags: 0
@@ -2257,9 +2095,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 3415596480480956086, guid: ab943847cc503d54eae01f212c432616,
+  m_Sprite: {fileID: -3819977776052675388, guid: ab943847cc503d54eae01f212c432616,
     type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -2280,12 +2118,12 @@ GameObject:
   - component: {fileID: 1999437489432436054}
   - component: {fileID: 1999437489432436053}
   m_Layer: 0
-  m_Name: Wall (29)
+  m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1999437489432436054
 Transform:
   m_ObjectHideFlags: 0
@@ -2339,7 +2177,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 3415596480480956086, guid: ab943847cc503d54eae01f212c432616,
+  m_Sprite: {fileID: -3819977776052675388, guid: ab943847cc503d54eae01f212c432616,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2361,9 +2199,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1999437489436914027}
   - component: {fileID: 1999437489436914026}
-  - component: {fileID: 7143693726577466001}
   m_Layer: 0
-  m_Name: Wall (61)
+  m_Name: Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2434,32 +2271,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &7143693726577466001
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1999437489436914028}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.15, y: 0.15}
-    newSize: {x: 0.15, y: 0.15}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.15, y: 0.15}
-  m_EdgeRadius: 0
 --- !u!1 &1999437489441738090
 GameObject:
   m_ObjectHideFlags: 0
@@ -2471,12 +2282,12 @@ GameObject:
   - component: {fileID: 1999437489441738089}
   - component: {fileID: 1999437489441738088}
   m_Layer: 0
-  m_Name: Wall (55)
+  m_Name: Empty
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1999437489441738089
 Transform:
   m_ObjectHideFlags: 0
@@ -2530,9 +2341,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 3415596480480956086, guid: ab943847cc503d54eae01f212c432616,
+  m_Sprite: {fileID: -3819977776052675388, guid: ab943847cc503d54eae01f212c432616,
     type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -2553,12 +2364,12 @@ GameObject:
   - component: {fileID: 1999437489444336467}
   - component: {fileID: 1999437489444336466}
   m_Layer: 0
-  m_Name: Wall
+  m_Name: Empty
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1999437489444336467
 Transform:
   m_ObjectHideFlags: 0
@@ -2612,9 +2423,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 3415596480480956086, guid: ab943847cc503d54eae01f212c432616,
+  m_Sprite: {fileID: -3819977776052675388, guid: ab943847cc503d54eae01f212c432616,
     type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -2635,12 +2446,12 @@ GameObject:
   - component: {fileID: 1999437489470049038}
   - component: {fileID: 1999437489470049037}
   m_Layer: 0
-  m_Name: Wall (7)
+  m_Name: Empty
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1999437489470049038
 Transform:
   m_ObjectHideFlags: 0
@@ -2694,9 +2505,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 3415596480480956086, guid: ab943847cc503d54eae01f212c432616,
+  m_Sprite: {fileID: -3819977776052675388, guid: ab943847cc503d54eae01f212c432616,
     type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -2717,12 +2528,12 @@ GameObject:
   - component: {fileID: 1999437489474944760}
   - component: {fileID: 1999437489474944743}
   m_Layer: 0
-  m_Name: Wall (30)
+  m_Name: Empty
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1999437489474944760
 Transform:
   m_ObjectHideFlags: 0
@@ -2776,9 +2587,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 3415596480480956086, guid: ab943847cc503d54eae01f212c432616,
+  m_Sprite: {fileID: -3819977776052675388, guid: ab943847cc503d54eae01f212c432616,
     type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -2798,9 +2609,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1999437489480015563}
   - component: {fileID: 1999437489480015562}
-  - component: {fileID: 6655749484117201806}
   m_Layer: 0
-  m_Name: Wall (85)
+  m_Name: Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2871,32 +2681,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &6655749484117201806
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1999437489480015564}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.15, y: 0.15}
-    newSize: {x: 0.15, y: 0.15}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.15, y: 0.15}
-  m_EdgeRadius: 0
 --- !u!1 &1999437489484021038
 GameObject:
   m_ObjectHideFlags: 0
@@ -2908,12 +2692,12 @@ GameObject:
   - component: {fileID: 1999437489484021037}
   - component: {fileID: 1999437489484021036}
   m_Layer: 0
-  m_Name: Wall (10)
+  m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1999437489484021037
 Transform:
   m_ObjectHideFlags: 0
@@ -2967,7 +2751,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 3415596480480956086, guid: ab943847cc503d54eae01f212c432616,
+  m_Sprite: {fileID: -3819977776052675388, guid: ab943847cc503d54eae01f212c432616,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2989,9 +2773,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1999437489555017670}
   - component: {fileID: 1999437489555017669}
-  - component: {fileID: 4343961358979086083}
   m_Layer: 0
-  m_Name: Wall (91)
+  m_Name: Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3062,32 +2845,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &4343961358979086083
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1999437489555017671}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.15, y: 0.15}
-    newSize: {x: 0.15, y: 0.15}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.15, y: 0.15}
-  m_EdgeRadius: 0
 --- !u!1 &1999437489571988243
 GameObject:
   m_ObjectHideFlags: 0
@@ -3099,12 +2856,12 @@ GameObject:
   - component: {fileID: 1999437489571988242}
   - component: {fileID: 1999437489571988241}
   m_Layer: 0
-  m_Name: Wall (14)
+  m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1999437489571988242
 Transform:
   m_ObjectHideFlags: 0
@@ -3158,7 +2915,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 3415596480480956086, guid: ab943847cc503d54eae01f212c432616,
+  m_Sprite: {fileID: -3819977776052675388, guid: ab943847cc503d54eae01f212c432616,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3181,12 +2938,12 @@ GameObject:
   - component: {fileID: 1999437489573325678}
   - component: {fileID: 1999437489573325677}
   m_Layer: 0
-  m_Name: Wall (59)
+  m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1999437489573325678
 Transform:
   m_ObjectHideFlags: 0
@@ -3240,7 +2997,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 3415596480480956086, guid: ab943847cc503d54eae01f212c432616,
+  m_Sprite: {fileID: -3819977776052675388, guid: ab943847cc503d54eae01f212c432616,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3262,9 +3019,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1999437489590255789}
   - component: {fileID: 1999437489590255788}
-  - component: {fileID: 1698424890969195549}
   m_Layer: 0
-  m_Name: Wall (37)
+  m_Name: Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3335,32 +3091,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &1698424890969195549
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1999437489590255790}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.15, y: 0.15}
-    newSize: {x: 0.15, y: 0.15}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.15, y: 0.15}
-  m_EdgeRadius: 0
 --- !u!1 &1999437489596931853
 GameObject:
   m_ObjectHideFlags: 0
@@ -3372,12 +3102,12 @@ GameObject:
   - component: {fileID: 1999437489596931852}
   - component: {fileID: 1999437489596931851}
   m_Layer: 0
-  m_Name: Wall (54)
+  m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1999437489596931852
 Transform:
   m_ObjectHideFlags: 0
@@ -3431,7 +3161,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 3415596480480956086, guid: ab943847cc503d54eae01f212c432616,
+  m_Sprite: {fileID: -3819977776052675388, guid: ab943847cc503d54eae01f212c432616,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3454,12 +3184,12 @@ GameObject:
   - component: {fileID: 1999437489636363087}
   - component: {fileID: 1999437489636363086}
   m_Layer: 0
-  m_Name: Wall (73)
+  m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1999437489636363087
 Transform:
   m_ObjectHideFlags: 0
@@ -3513,7 +3243,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 3415596480480956086, guid: ab943847cc503d54eae01f212c432616,
+  m_Sprite: {fileID: -3819977776052675388, guid: ab943847cc503d54eae01f212c432616,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3536,12 +3266,12 @@ GameObject:
   - component: {fileID: 1999437489670188126}
   - component: {fileID: 1999437489670188125}
   m_Layer: 0
-  m_Name: Wall (70)
+  m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1999437489670188126
 Transform:
   m_ObjectHideFlags: 0
@@ -3595,7 +3325,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 3415596480480956086, guid: ab943847cc503d54eae01f212c432616,
+  m_Sprite: {fileID: -3819977776052675388, guid: ab943847cc503d54eae01f212c432616,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3618,12 +3348,12 @@ GameObject:
   - component: {fileID: 1999437489682133588}
   - component: {fileID: 1999437489682133587}
   m_Layer: 0
-  m_Name: Wall (2)
+  m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1999437489682133588
 Transform:
   m_ObjectHideFlags: 0
@@ -3677,7 +3407,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 3415596480480956086, guid: ab943847cc503d54eae01f212c432616,
+  m_Sprite: {fileID: -3819977776052675388, guid: ab943847cc503d54eae01f212c432616,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3700,12 +3430,12 @@ GameObject:
   - component: {fileID: 1999437489682464596}
   - component: {fileID: 1999437489682464595}
   m_Layer: 0
-  m_Name: Wall (4)
+  m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1999437489682464596
 Transform:
   m_ObjectHideFlags: 0
@@ -3759,7 +3489,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 3415596480480956086, guid: ab943847cc503d54eae01f212c432616,
+  m_Sprite: {fileID: -3819977776052675388, guid: ab943847cc503d54eae01f212c432616,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3782,12 +3512,12 @@ GameObject:
   - component: {fileID: 1999437489729521824}
   - component: {fileID: 1999437489729521839}
   m_Layer: 0
-  m_Name: Wall (42)
+  m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1999437489729521824
 Transform:
   m_ObjectHideFlags: 0
@@ -3841,7 +3571,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 3415596480480956086, guid: ab943847cc503d54eae01f212c432616,
+  m_Sprite: {fileID: -3819977776052675388, guid: ab943847cc503d54eae01f212c432616,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3863,9 +3593,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1999437489757122211}
   - component: {fileID: 1999437489757122210}
-  - component: {fileID: 7515823074295728818}
   m_Layer: 0
-  m_Name: Wall (67)
+  m_Name: Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3936,32 +3665,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &7515823074295728818
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1999437489757122212}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.15, y: 0.15}
-    newSize: {x: 0.15, y: 0.15}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.15, y: 0.15}
-  m_EdgeRadius: 0
 --- !u!1 &1999437489765718466
 GameObject:
   m_ObjectHideFlags: 0
@@ -3973,12 +3676,12 @@ GameObject:
   - component: {fileID: 1999437489765718465}
   - component: {fileID: 1999437489765718464}
   m_Layer: 0
-  m_Name: Wall (3)
+  m_Name: Empty
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1999437489765718465
 Transform:
   m_ObjectHideFlags: 0
@@ -4032,9 +3735,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 3415596480480956086, guid: ab943847cc503d54eae01f212c432616,
+  m_Sprite: {fileID: -3819977776052675388, guid: ab943847cc503d54eae01f212c432616,
     type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -4055,12 +3758,12 @@ GameObject:
   - component: {fileID: 1999437489774194205}
   - component: {fileID: 1999437489774194204}
   m_Layer: 0
-  m_Name: Wall (75)
+  m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1999437489774194205
 Transform:
   m_ObjectHideFlags: 0
@@ -4114,7 +3817,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 3415596480480956086, guid: ab943847cc503d54eae01f212c432616,
+  m_Sprite: {fileID: -3819977776052675388, guid: ab943847cc503d54eae01f212c432616,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -4137,12 +3840,12 @@ GameObject:
   - component: {fileID: 1999437489798983873}
   - component: {fileID: 1999437489798983872}
   m_Layer: 0
-  m_Name: Wall (5)
+  m_Name: Empty
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1999437489798983873
 Transform:
   m_ObjectHideFlags: 0
@@ -4196,9 +3899,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 3415596480480956086, guid: ab943847cc503d54eae01f212c432616,
+  m_Sprite: {fileID: -3819977776052675388, guid: ab943847cc503d54eae01f212c432616,
     type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -4219,12 +3922,12 @@ GameObject:
   - component: {fileID: 1999437489830965741}
   - component: {fileID: 1999437489830965740}
   m_Layer: 0
-  m_Name: Wall (22)
+  m_Name: Empty
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1999437489830965741
 Transform:
   m_ObjectHideFlags: 0
@@ -4278,9 +3981,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 3415596480480956086, guid: ab943847cc503d54eae01f212c432616,
+  m_Sprite: {fileID: -3819977776052675388, guid: ab943847cc503d54eae01f212c432616,
     type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -4301,12 +4004,12 @@ GameObject:
   - component: {fileID: 1999437489836859066}
   - component: {fileID: 1999437489836859065}
   m_Layer: 0
-  m_Name: Wall (74)
+  m_Name: Empty
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1999437489836859066
 Transform:
   m_ObjectHideFlags: 0
@@ -4360,9 +4063,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 3415596480480956086, guid: ab943847cc503d54eae01f212c432616,
+  m_Sprite: {fileID: -3819977776052675388, guid: ab943847cc503d54eae01f212c432616,
     type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -4383,12 +4086,12 @@ GameObject:
   - component: {fileID: 1999437489843744057}
   - component: {fileID: 1999437489843744056}
   m_Layer: 0
-  m_Name: Wall (106)
+  m_Name: Empty
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1999437489843744057
 Transform:
   m_ObjectHideFlags: 0
@@ -4442,9 +4145,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 3415596480480956086, guid: ab943847cc503d54eae01f212c432616,
+  m_Sprite: {fileID: -3819977776052675388, guid: ab943847cc503d54eae01f212c432616,
     type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -4465,12 +4168,12 @@ GameObject:
   - component: {fileID: 1999437489897713616}
   - component: {fileID: 1999437489897713631}
   m_Layer: 0
-  m_Name: Wall (86)
+  m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1999437489897713616
 Transform:
   m_ObjectHideFlags: 0
@@ -4524,7 +4227,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 3415596480480956086, guid: ab943847cc503d54eae01f212c432616,
+  m_Sprite: {fileID: -3819977776052675388, guid: ab943847cc503d54eae01f212c432616,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -4546,9 +4249,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1999437489907094233}
   - component: {fileID: 1999437489907094232}
-  - component: {fileID: 4766114650652391967}
   m_Layer: 0
-  m_Name: Wall (87)
+  m_Name: Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4619,32 +4321,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &4766114650652391967
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1999437489907094234}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.15, y: 0.15}
-    newSize: {x: 0.15, y: 0.15}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.15, y: 0.15}
-  m_EdgeRadius: 0
 --- !u!1 &1999437489958464213
 GameObject:
   m_ObjectHideFlags: 0
@@ -4656,12 +4332,12 @@ GameObject:
   - component: {fileID: 1999437489958464212}
   - component: {fileID: 1999437489958464211}
   m_Layer: 0
-  m_Name: Wall (50)
+  m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1999437489958464212
 Transform:
   m_ObjectHideFlags: 0
@@ -4715,7 +4391,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 3415596480480956086, guid: ab943847cc503d54eae01f212c432616,
+  m_Sprite: {fileID: -3819977776052675388, guid: ab943847cc503d54eae01f212c432616,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -4738,12 +4414,12 @@ GameObject:
   - component: {fileID: 1999437490019563130}
   - component: {fileID: 1999437490019563129}
   m_Layer: 0
-  m_Name: Wall (47)
+  m_Name: Empty
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1999437490019563130
 Transform:
   m_ObjectHideFlags: 0
@@ -4797,9 +4473,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 3415596480480956086, guid: ab943847cc503d54eae01f212c432616,
+  m_Sprite: {fileID: -3819977776052675388, guid: ab943847cc503d54eae01f212c432616,
     type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -4820,12 +4496,12 @@ GameObject:
   - component: {fileID: 1999437490023769314}
   - component: {fileID: 1999437490023769313}
   m_Layer: 0
-  m_Name: Wall (36)
+  m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1999437490023769314
 Transform:
   m_ObjectHideFlags: 0
@@ -4879,7 +4555,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 3415596480480956086, guid: ab943847cc503d54eae01f212c432616,
+  m_Sprite: {fileID: -3819977776052675388, guid: ab943847cc503d54eae01f212c432616,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -4901,9 +4577,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1999437490043694098}
   - component: {fileID: 1999437490043694097}
-  - component: {fileID: 2796561944596412032}
   m_Layer: 0
-  m_Name: Wall (17)
+  m_Name: Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4974,32 +4649,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &2796561944596412032
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1999437490043694099}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.15, y: 0.15}
-    newSize: {x: 0.15, y: 0.15}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.15, y: 0.15}
-  m_EdgeRadius: 0
 --- !u!1 &1999437490070955374
 GameObject:
   m_ObjectHideFlags: 0
@@ -5011,12 +4660,12 @@ GameObject:
   - component: {fileID: 1999437490070955373}
   - component: {fileID: 1999437490070955372}
   m_Layer: 0
-  m_Name: Wall (26)
+  m_Name: Empty
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1999437490070955373
 Transform:
   m_ObjectHideFlags: 0
@@ -5070,9 +4719,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 3415596480480956086, guid: ab943847cc503d54eae01f212c432616,
+  m_Sprite: {fileID: -3819977776052675388, guid: ab943847cc503d54eae01f212c432616,
     type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -5092,9 +4741,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1999437490074272125}
   - component: {fileID: 1999437490074272124}
-  - component: {fileID: 4528625818970755399}
   m_Layer: 0
-  m_Name: Wall (98)
+  m_Name: Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5165,32 +4813,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &4528625818970755399
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1999437490074272126}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.15, y: 0.15}
-    newSize: {x: 0.15, y: 0.15}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.15, y: 0.15}
-  m_EdgeRadius: 0
 --- !u!1 &1999437490075582759
 GameObject:
   m_ObjectHideFlags: 0
@@ -5202,12 +4824,12 @@ GameObject:
   - component: {fileID: 1999437490075582758}
   - component: {fileID: 1999437490075582757}
   m_Layer: 0
-  m_Name: Wall (1)
+  m_Name: Empty
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1999437490075582758
 Transform:
   m_ObjectHideFlags: 0
@@ -5261,9 +4883,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 3415596480480956086, guid: ab943847cc503d54eae01f212c432616,
+  m_Sprite: {fileID: -3819977776052675388, guid: ab943847cc503d54eae01f212c432616,
     type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -5284,12 +4906,12 @@ GameObject:
   - component: {fileID: 1999437490135387523}
   - component: {fileID: 1999437490135387522}
   m_Layer: 0
-  m_Name: Wall (23)
+  m_Name: Empty
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1999437490135387523
 Transform:
   m_ObjectHideFlags: 0
@@ -5343,9 +4965,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 3415596480480956086, guid: ab943847cc503d54eae01f212c432616,
+  m_Sprite: {fileID: -3819977776052675388, guid: ab943847cc503d54eae01f212c432616,
     type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -5366,12 +4988,12 @@ GameObject:
   - component: {fileID: 1999437490173572201}
   - component: {fileID: 1999437490173572200}
   m_Layer: 0
-  m_Name: Wall (6)
+  m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1999437490173572201
 Transform:
   m_ObjectHideFlags: 0
@@ -5425,7 +5047,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 3415596480480956086, guid: ab943847cc503d54eae01f212c432616,
+  m_Sprite: {fileID: -3819977776052675388, guid: ab943847cc503d54eae01f212c432616,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -5447,9 +5069,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1999437490176474756}
   - component: {fileID: 1999437490176474755}
-  - component: {fileID: 4660330557213144789}
   m_Layer: 0
-  m_Name: Wall (15)
+  m_Name: Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5520,32 +5141,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &4660330557213144789
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1999437490176474757}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.15, y: 0.15}
-    newSize: {x: 0.15, y: 0.15}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.15, y: 0.15}
-  m_EdgeRadius: 0
 --- !u!1 &1999437490204315734
 GameObject:
   m_ObjectHideFlags: 0
@@ -5556,9 +5151,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1999437490204315733}
   - component: {fileID: 1999437490204315732}
-  - component: {fileID: 3606836549097613041}
   m_Layer: 0
-  m_Name: Wall (19)
+  m_Name: Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5629,32 +5223,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &3606836549097613041
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1999437490204315734}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.15, y: 0.15}
-    newSize: {x: 0.15, y: 0.15}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.15, y: 0.15}
-  m_EdgeRadius: 0
 --- !u!1 &1999437490211550970
 GameObject:
   m_ObjectHideFlags: 0
@@ -5666,12 +5234,12 @@ GameObject:
   - component: {fileID: 1999437490211550969}
   - component: {fileID: 1999437490211550968}
   m_Layer: 0
-  m_Name: Wall (52)
+  m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1999437490211550969
 Transform:
   m_ObjectHideFlags: 0
@@ -5725,7 +5293,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 3415596480480956086, guid: ab943847cc503d54eae01f212c432616,
+  m_Sprite: {fileID: -3819977776052675388, guid: ab943847cc503d54eae01f212c432616,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -5747,9 +5315,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1999437490261796057}
   - component: {fileID: 1999437490261796056}
-  - component: {fileID: 9035327320154285173}
   m_Layer: 0
-  m_Name: Wall (105)
+  m_Name: Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5820,32 +5387,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &9035327320154285173
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1999437490261796058}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.15, y: 0.15}
-    newSize: {x: 0.15, y: 0.15}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.15, y: 0.15}
-  m_EdgeRadius: 0
 --- !u!1 &1999437490266639755
 GameObject:
   m_ObjectHideFlags: 0
@@ -5856,9 +5397,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1999437490266639754}
   - component: {fileID: 1999437490266639753}
-  - component: {fileID: 2327716289052187183}
   m_Layer: 0
-  m_Name: Wall (45)
+  m_Name: Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5929,32 +5469,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &2327716289052187183
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1999437490266639755}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.15, y: 0.15}
-    newSize: {x: 0.15, y: 0.15}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.15, y: 0.15}
-  m_EdgeRadius: 0
 --- !u!1 &1999437490277340081
 GameObject:
   m_ObjectHideFlags: 0
@@ -5966,12 +5480,12 @@ GameObject:
   - component: {fileID: 1999437490277340080}
   - component: {fileID: 1999437490277340095}
   m_Layer: 0
-  m_Name: Wall (76)
+  m_Name: Empty
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1999437490277340080
 Transform:
   m_ObjectHideFlags: 0
@@ -6025,9 +5539,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 3415596480480956086, guid: ab943847cc503d54eae01f212c432616,
+  m_Sprite: {fileID: -3819977776052675388, guid: ab943847cc503d54eae01f212c432616,
     type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -6048,12 +5562,12 @@ GameObject:
   - component: {fileID: 1999437490289774499}
   - component: {fileID: 1999437490289774498}
   m_Layer: 0
-  m_Name: Wall (83)
+  m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1999437490289774499
 Transform:
   m_ObjectHideFlags: 0
@@ -6107,7 +5621,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 3415596480480956086, guid: ab943847cc503d54eae01f212c432616,
+  m_Sprite: {fileID: -3819977776052675388, guid: ab943847cc503d54eae01f212c432616,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -6130,12 +5644,12 @@ GameObject:
   - component: {fileID: 1999437490326581756}
   - component: {fileID: 1999437490326581755}
   m_Layer: 0
-  m_Name: Wall (24)
+  m_Name: Empty
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1999437490326581756
 Transform:
   m_ObjectHideFlags: 0
@@ -6189,9 +5703,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 3415596480480956086, guid: ab943847cc503d54eae01f212c432616,
+  m_Sprite: {fileID: -3819977776052675388, guid: ab943847cc503d54eae01f212c432616,
     type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -6212,12 +5726,12 @@ GameObject:
   - component: {fileID: 1999437490357067739}
   - component: {fileID: 1999437490357067738}
   m_Layer: 0
-  m_Name: Wall (57)
+  m_Name: Empty
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1999437490357067739
 Transform:
   m_ObjectHideFlags: 0
@@ -6271,9 +5785,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 3415596480480956086, guid: ab943847cc503d54eae01f212c432616,
+  m_Sprite: {fileID: -3819977776052675388, guid: ab943847cc503d54eae01f212c432616,
     type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -6294,12 +5808,12 @@ GameObject:
   - component: {fileID: 1999437490370684469}
   - component: {fileID: 1999437490370684468}
   m_Layer: 0
-  m_Name: Wall (35)
+  m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1999437490370684469
 Transform:
   m_ObjectHideFlags: 0
@@ -6353,7 +5867,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 3415596480480956086, guid: ab943847cc503d54eae01f212c432616,
+  m_Sprite: {fileID: -3819977776052675388, guid: ab943847cc503d54eae01f212c432616,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -6375,9 +5889,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1999437490400354899}
   - component: {fileID: 1999437490400354898}
-  - component: {fileID: 3143438863275233465}
   m_Layer: 0
-  m_Name: Wall (69)
+  m_Name: Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6448,32 +5961,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &3143438863275233465
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1999437490400354900}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.15, y: 0.15}
-    newSize: {x: 0.15, y: 0.15}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.15, y: 0.15}
-  m_EdgeRadius: 0
 --- !u!1 &1999437490407181520
 GameObject:
   m_ObjectHideFlags: 0
@@ -6485,12 +5972,12 @@ GameObject:
   - component: {fileID: 1999437490407181535}
   - component: {fileID: 1999437490407181534}
   m_Layer: 0
-  m_Name: Wall (78)
+  m_Name: Empty
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1999437490407181535
 Transform:
   m_ObjectHideFlags: 0
@@ -6544,9 +6031,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 3415596480480956086, guid: ab943847cc503d54eae01f212c432616,
+  m_Sprite: {fileID: -3819977776052675388, guid: ab943847cc503d54eae01f212c432616,
     type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -6567,12 +6054,12 @@ GameObject:
   - component: {fileID: 1999437490416838442}
   - component: {fileID: 1999437490416838441}
   m_Layer: 0
-  m_Name: Wall (12)
+  m_Name: Empty
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1999437490416838442
 Transform:
   m_ObjectHideFlags: 0
@@ -6626,9 +6113,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 3415596480480956086, guid: ab943847cc503d54eae01f212c432616,
+  m_Sprite: {fileID: -3819977776052675388, guid: ab943847cc503d54eae01f212c432616,
     type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -6649,12 +6136,12 @@ GameObject:
   - component: {fileID: 1999437490425031389}
   - component: {fileID: 1999437490425031388}
   m_Layer: 0
-  m_Name: Wall (48)
+  m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1999437490425031389
 Transform:
   m_ObjectHideFlags: 0
@@ -6708,7 +6195,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 3415596480480956086, guid: ab943847cc503d54eae01f212c432616,
+  m_Sprite: {fileID: -3819977776052675388, guid: ab943847cc503d54eae01f212c432616,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -6731,12 +6218,12 @@ GameObject:
   - component: {fileID: 1999437490429754102}
   - component: {fileID: 1999437490429754101}
   m_Layer: 0
-  m_Name: Wall (92)
+  m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1999437490429754102
 Transform:
   m_ObjectHideFlags: 0
@@ -6790,7 +6277,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 3415596480480956086, guid: ab943847cc503d54eae01f212c432616,
+  m_Sprite: {fileID: -3819977776052675388, guid: ab943847cc503d54eae01f212c432616,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -6813,12 +6300,12 @@ GameObject:
   - component: {fileID: 1999437490443590021}
   - component: {fileID: 1999437490443590020}
   m_Layer: 0
-  m_Name: Wall (28)
+  m_Name: Empty
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1999437490443590021
 Transform:
   m_ObjectHideFlags: 0
@@ -6872,9 +6359,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 3415596480480956086, guid: ab943847cc503d54eae01f212c432616,
+  m_Sprite: {fileID: -3819977776052675388, guid: ab943847cc503d54eae01f212c432616,
     type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -6894,9 +6381,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1999437490463001465}
   - component: {fileID: 1999437490463001464}
-  - component: {fileID: 2412603488961078773}
   m_Layer: 0
-  m_Name: Wall (63)
+  m_Name: Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6967,32 +6453,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &2412603488961078773
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1999437490463001466}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.15, y: 0.15}
-    newSize: {x: 0.15, y: 0.15}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.15, y: 0.15}
-  m_EdgeRadius: 0
 --- !u!1 &1999437490474732670
 GameObject:
   m_ObjectHideFlags: 0
@@ -7004,12 +6464,12 @@ GameObject:
   - component: {fileID: 1999437490474732669}
   - component: {fileID: 1999437490474732668}
   m_Layer: 0
-  m_Name: Wall (25)
+  m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1999437490474732669
 Transform:
   m_ObjectHideFlags: 0
@@ -7063,7 +6523,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 3415596480480956086, guid: ab943847cc503d54eae01f212c432616,
+  m_Sprite: {fileID: -3819977776052675388, guid: ab943847cc503d54eae01f212c432616,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -7086,12 +6546,12 @@ GameObject:
   - component: {fileID: 1999437490478551460}
   - component: {fileID: 1999437490478551459}
   m_Layer: 0
-  m_Name: Wall (95)
+  m_Name: Empty
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1999437490478551460
 Transform:
   m_ObjectHideFlags: 0
@@ -7145,9 +6605,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 3415596480480956086, guid: ab943847cc503d54eae01f212c432616,
+  m_Sprite: {fileID: -3819977776052675388, guid: ab943847cc503d54eae01f212c432616,
     type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -7168,12 +6628,12 @@ GameObject:
   - component: {fileID: 1999437490496766404}
   - component: {fileID: 1999437490496766403}
   m_Layer: 0
-  m_Name: Wall (44)
+  m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1999437490496766404
 Transform:
   m_ObjectHideFlags: 0
@@ -7227,7 +6687,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 3415596480480956086, guid: ab943847cc503d54eae01f212c432616,
+  m_Sprite: {fileID: -3819977776052675388, guid: ab943847cc503d54eae01f212c432616,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -7250,12 +6710,12 @@ GameObject:
   - component: {fileID: 1999437490508969058}
   - component: {fileID: 1999437490508969057}
   m_Layer: 0
-  m_Name: Wall (49)
+  m_Name: Empty
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1999437490508969058
 Transform:
   m_ObjectHideFlags: 0
@@ -7309,9 +6769,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 3415596480480956086, guid: ab943847cc503d54eae01f212c432616,
+  m_Sprite: {fileID: -3819977776052675388, guid: ab943847cc503d54eae01f212c432616,
     type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -7332,12 +6792,12 @@ GameObject:
   - component: {fileID: 1999437490517006724}
   - component: {fileID: 1999437490517006723}
   m_Layer: 0
-  m_Name: Wall (58)
+  m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1999437490517006724
 Transform:
   m_ObjectHideFlags: 0
@@ -7391,7 +6851,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 3415596480480956086, guid: ab943847cc503d54eae01f212c432616,
+  m_Sprite: {fileID: -3819977776052675388, guid: ab943847cc503d54eae01f212c432616,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -7414,12 +6874,12 @@ GameObject:
   - component: {fileID: 1999437490534132847}
   - component: {fileID: 1999437490534132846}
   m_Layer: 0
-  m_Name: Wall (72)
+  m_Name: Empty
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1999437490534132847
 Transform:
   m_ObjectHideFlags: 0
@@ -7473,9 +6933,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 3415596480480956086, guid: ab943847cc503d54eae01f212c432616,
+  m_Sprite: {fileID: -3819977776052675388, guid: ab943847cc503d54eae01f212c432616,
     type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -7496,12 +6956,12 @@ GameObject:
   - component: {fileID: 1999437490551693690}
   - component: {fileID: 1999437490551693689}
   m_Layer: 0
-  m_Name: Wall (51)
+  m_Name: Empty
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1999437490551693690
 Transform:
   m_ObjectHideFlags: 0
@@ -7555,9 +7015,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 3415596480480956086, guid: ab943847cc503d54eae01f212c432616,
+  m_Sprite: {fileID: -3819977776052675388, guid: ab943847cc503d54eae01f212c432616,
     type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -7577,9 +7037,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1999437490590687396}
   - component: {fileID: 1999437490590687395}
-  - component: {fileID: 7757300753552356341}
   m_Layer: 0
-  m_Name: Wall (103)
+  m_Name: Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7650,32 +7109,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &7757300753552356341
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1999437490590687397}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.15, y: 0.15}
-    newSize: {x: 0.15, y: 0.15}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.15, y: 0.15}
-  m_EdgeRadius: 0
 --- !u!1 &1999437490606641457
 GameObject:
   m_ObjectHideFlags: 0
@@ -7687,12 +7120,12 @@ GameObject:
   - component: {fileID: 1999437490606641456}
   - component: {fileID: 1999437490606641471}
   m_Layer: 0
-  m_Name: Wall (71)
+  m_Name: Empty
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1999437490606641456
 Transform:
   m_ObjectHideFlags: 0
@@ -7746,9 +7179,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 3415596480480956086, guid: ab943847cc503d54eae01f212c432616,
+  m_Sprite: {fileID: -3819977776052675388, guid: ab943847cc503d54eae01f212c432616,
     type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -7769,12 +7202,12 @@ GameObject:
   - component: {fileID: 1999437490607442998}
   - component: {fileID: 1999437490607442997}
   m_Layer: 0
-  m_Name: Wall (88)
+  m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1999437490607442998
 Transform:
   m_ObjectHideFlags: 0
@@ -7828,7 +7261,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 3415596480480956086, guid: ab943847cc503d54eae01f212c432616,
+  m_Sprite: {fileID: -3819977776052675388, guid: ab943847cc503d54eae01f212c432616,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -7851,12 +7284,12 @@ GameObject:
   - component: {fileID: 1999437490636498306}
   - component: {fileID: 1999437490636498305}
   m_Layer: 0
-  m_Name: Wall (68)
+  m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1999437490636498306
 Transform:
   m_ObjectHideFlags: 0
@@ -7910,7 +7343,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 3415596480480956086, guid: ab943847cc503d54eae01f212c432616,
+  m_Sprite: {fileID: -3819977776052675388, guid: ab943847cc503d54eae01f212c432616,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -7933,12 +7366,12 @@ GameObject:
   - component: {fileID: 1999437490683045431}
   - component: {fileID: 1999437490683045430}
   m_Layer: 0
-  m_Name: Wall (18)
+  m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1999437490683045431
 Transform:
   m_ObjectHideFlags: 0
@@ -7992,7 +7425,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 3415596480480956086, guid: ab943847cc503d54eae01f212c432616,
+  m_Sprite: {fileID: -3819977776052675388, guid: ab943847cc503d54eae01f212c432616,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -8015,12 +7448,12 @@ GameObject:
   - component: {fileID: 1999437490713804728}
   - component: {fileID: 1999437490713804711}
   m_Layer: 0
-  m_Name: Wall (9)
+  m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1999437490713804728
 Transform:
   m_ObjectHideFlags: 0
@@ -8074,7 +7507,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 3415596480480956086, guid: ab943847cc503d54eae01f212c432616,
+  m_Sprite: {fileID: -3819977776052675388, guid: ab943847cc503d54eae01f212c432616,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -8097,12 +7530,12 @@ GameObject:
   - component: {fileID: 1999437490719347108}
   - component: {fileID: 1999437490719347107}
   m_Layer: 0
-  m_Name: Wall (96)
+  m_Name: Empty
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1999437490719347108
 Transform:
   m_ObjectHideFlags: 0
@@ -8156,9 +7589,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 3415596480480956086, guid: ab943847cc503d54eae01f212c432616,
+  m_Sprite: {fileID: -3819977776052675388, guid: ab943847cc503d54eae01f212c432616,
     type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -8179,12 +7612,12 @@ GameObject:
   - component: {fileID: 1999437490727450855}
   - component: {fileID: 1999437490727450854}
   m_Layer: 0
-  m_Name: Wall (80)
+  m_Name: Empty
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1999437490727450855
 Transform:
   m_ObjectHideFlags: 0
@@ -8238,9 +7671,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 3415596480480956086, guid: ab943847cc503d54eae01f212c432616,
+  m_Sprite: {fileID: -3819977776052675388, guid: ab943847cc503d54eae01f212c432616,
     type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -8260,9 +7693,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1999437490737823724}
   - component: {fileID: 1999437490737823723}
-  - component: {fileID: 8556700393068793343}
   m_Layer: 0
-  m_Name: Wall (101)
+  m_Name: Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8333,32 +7765,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &8556700393068793343
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1999437490737823725}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.15, y: 0.15}
-    newSize: {x: 0.15, y: 0.15}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.15, y: 0.15}
-  m_EdgeRadius: 0
 --- !u!1 &1999437490834424580
 GameObject:
   m_ObjectHideFlags: 0
@@ -8369,9 +7775,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1999437490834424579}
   - component: {fileID: 1999437490834424578}
-  - component: {fileID: 6264159799390491923}
   m_Layer: 0
-  m_Name: Wall (82)
+  m_Name: Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8442,32 +7847,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &6264159799390491923
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1999437490834424580}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.15, y: 0.15}
-    newSize: {x: 0.15, y: 0.15}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.15, y: 0.15}
-  m_EdgeRadius: 0
 --- !u!1 &1999437490850284379
 GameObject:
   m_ObjectHideFlags: 0
@@ -8479,12 +7858,12 @@ GameObject:
   - component: {fileID: 1999437490850284378}
   - component: {fileID: 1999437490850284377}
   m_Layer: 0
-  m_Name: Wall (46)
+  m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1999437490850284378
 Transform:
   m_ObjectHideFlags: 0
@@ -8538,7 +7917,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 3415596480480956086, guid: ab943847cc503d54eae01f212c432616,
+  m_Sprite: {fileID: -3819977776052675388, guid: ab943847cc503d54eae01f212c432616,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -8754,12 +8133,12 @@ GameObject:
   - component: {fileID: 1999437490860634768}
   - component: {fileID: 1999437490860634783}
   m_Layer: 0
-  m_Name: Wall (32)
+  m_Name: Empty
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1999437490860634768
 Transform:
   m_ObjectHideFlags: 0
@@ -8813,9 +8192,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 3415596480480956086, guid: ab943847cc503d54eae01f212c432616,
+  m_Sprite: {fileID: -3819977776052675388, guid: ab943847cc503d54eae01f212c432616,
     type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -8836,12 +8215,12 @@ GameObject:
   - component: {fileID: 1999437490896572007}
   - component: {fileID: 1999437490896572006}
   m_Layer: 0
-  m_Name: Wall (33)
+  m_Name: Empty
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1999437490896572007
 Transform:
   m_ObjectHideFlags: 0
@@ -8895,9 +8274,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 3415596480480956086, guid: ab943847cc503d54eae01f212c432616,
+  m_Sprite: {fileID: -3819977776052675388, guid: ab943847cc503d54eae01f212c432616,
     type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -8918,12 +8297,12 @@ GameObject:
   - component: {fileID: 1999437490929615303}
   - component: {fileID: 1999437490929615302}
   m_Layer: 0
-  m_Name: Wall (16)
+  m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1999437490929615303
 Transform:
   m_ObjectHideFlags: 0
@@ -8977,7 +8356,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 3415596480480956086, guid: ab943847cc503d54eae01f212c432616,
+  m_Sprite: {fileID: -3819977776052675388, guid: ab943847cc503d54eae01f212c432616,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -8999,9 +8378,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1999437490937273350}
   - component: {fileID: 1999437490937273349}
-  - component: {fileID: 5671254268997966760}
   m_Layer: 0
-  m_Name: Wall (39)
+  m_Name: Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9072,32 +8450,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &5671254268997966760
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1999437490937273351}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.15, y: 0.15}
-    newSize: {x: 0.15, y: 0.15}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.15, y: 0.15}
-  m_EdgeRadius: 0
 --- !u!1 &1999437490968231329
 GameObject:
   m_ObjectHideFlags: 0
@@ -9109,12 +8461,12 @@ GameObject:
   - component: {fileID: 1999437490968231328}
   - component: {fileID: 1999437490968231343}
   m_Layer: 0
-  m_Name: Wall (34)
+  m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1999437490968231328
 Transform:
   m_ObjectHideFlags: 0
@@ -9168,7 +8520,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 3415596480480956086, guid: ab943847cc503d54eae01f212c432616,
+  m_Sprite: {fileID: -3819977776052675388, guid: ab943847cc503d54eae01f212c432616,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -9191,12 +8543,12 @@ GameObject:
   - component: {fileID: 1999437490990825294}
   - component: {fileID: 1999437490990825293}
   m_Layer: 0
-  m_Name: Wall (40)
+  m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1999437490990825294
 Transform:
   m_ObjectHideFlags: 0
@@ -9250,7 +8602,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 3415596480480956086, guid: ab943847cc503d54eae01f212c432616,
+  m_Sprite: {fileID: -3819977776052675388, guid: ab943847cc503d54eae01f212c432616,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -9273,12 +8625,12 @@ GameObject:
   - component: {fileID: 1999437490995496515}
   - component: {fileID: 1999437490995496514}
   m_Layer: 0
-  m_Name: Wall (20)
+  m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1999437490995496515
 Transform:
   m_ObjectHideFlags: 0
@@ -9332,7 +8684,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 3415596480480956086, guid: ab943847cc503d54eae01f212c432616,
+  m_Sprite: {fileID: -3819977776052675388, guid: ab943847cc503d54eae01f212c432616,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -9355,12 +8707,12 @@ GameObject:
   - component: {fileID: 1999437491012888654}
   - component: {fileID: 1999437491012888653}
   m_Layer: 0
-  m_Name: Wall (107)
+  m_Name: Empty
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1999437491012888654
 Transform:
   m_ObjectHideFlags: 0
@@ -9414,9 +8766,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 3415596480480956086, guid: ab943847cc503d54eae01f212c432616,
+  m_Sprite: {fileID: -3819977776052675388, guid: ab943847cc503d54eae01f212c432616,
     type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -9437,12 +8789,12 @@ GameObject:
   - component: {fileID: 1999437491015607178}
   - component: {fileID: 1999437491015607177}
   m_Layer: 0
-  m_Name: Wall (38)
+  m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1999437491015607178
 Transform:
   m_ObjectHideFlags: 0
@@ -9496,7 +8848,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 3415596480480956086, guid: ab943847cc503d54eae01f212c432616,
+  m_Sprite: {fileID: -3819977776052675388, guid: ab943847cc503d54eae01f212c432616,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -9519,12 +8871,12 @@ GameObject:
   - component: {fileID: 1999437491031289502}
   - component: {fileID: 1999437491031289501}
   m_Layer: 0
-  m_Name: Wall (77)
+  m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1999437491031289502
 Transform:
   m_ObjectHideFlags: 0
@@ -9578,7 +8930,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 3415596480480956086, guid: ab943847cc503d54eae01f212c432616,
+  m_Sprite: {fileID: -3819977776052675388, guid: ab943847cc503d54eae01f212c432616,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -9601,12 +8953,12 @@ GameObject:
   - component: {fileID: 1999437491034351428}
   - component: {fileID: 1999437491034351427}
   m_Layer: 0
-  m_Name: Wall (8)
+  m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1999437491034351428
 Transform:
   m_ObjectHideFlags: 0
@@ -9660,7 +9012,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 3415596480480956086, guid: ab943847cc503d54eae01f212c432616,
+  m_Sprite: {fileID: -3819977776052675388, guid: ab943847cc503d54eae01f212c432616,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -9682,9 +9034,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1999437491042810481}
   - component: {fileID: 1999437491042810480}
-  - component: {fileID: 7296643930520242747}
   m_Layer: 0
-  m_Name: Wall (89)
+  m_Name: Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9755,32 +9106,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &7296643930520242747
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1999437491042810482}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.15, y: 0.15}
-    newSize: {x: 0.15, y: 0.15}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.15, y: 0.15}
-  m_EdgeRadius: 0
 --- !u!1 &4008952830957462640
 GameObject:
   m_ObjectHideFlags: 0

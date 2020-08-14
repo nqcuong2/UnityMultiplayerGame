@@ -4,6 +4,14 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Space) && !UIManager.Instance.chatField.isFocused)
+        {
+            GameManager.Instance.SpawnMyBomb();
+        }
+    }
+
     private void FixedUpdate()
     {
         SendInputToServer();
