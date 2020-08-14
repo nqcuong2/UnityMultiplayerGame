@@ -9,13 +9,15 @@ public enum ServerPackets
     SendChatMsg,
     SpawnPlayer,
     PlayerPosition,
+    SpawnBomb,
 }
 
 public enum ClientPackets
 {
     WelcomeReceived = 1,
     SendChatMsg,
-    PlayerMovement
+    PlayerMovement,
+    SpawnBomb,
 }
 
 public class Packet : IDisposable
@@ -139,6 +141,12 @@ public class Packet : IDisposable
     {
         Write(value.Length);
         buffer.AddRange(Encoding.ASCII.GetBytes(value));
+    }
+
+    public void Write(Vector2 value)
+    {
+        Write(value.x);
+        Write(value.y);
     }
 
     public void Write(Vector3 value)
@@ -295,14 +303,14 @@ public class Packet : IDisposable
         }
     }
 
+    public Vector2 ReadVector2(bool moveReadPos = true)
+    {
+        return new Vector2(ReadFloat(moveReadPos), ReadFloat(moveReadPos));
+    }
+
     public Vector3 ReadVector3(bool moveReadPos = true)
     {
         return new Vector3(ReadFloat(moveReadPos), ReadFloat(moveReadPos), ReadFloat(moveReadPos));
-    }
-
-    public Quaternion ReadQuaternion(bool moveReadPos = true)
-    {
-        return new Quaternion(ReadFloat(moveReadPos), ReadFloat(moveReadPos), ReadFloat(moveReadPos), ReadFloat(moveReadPos));
     }
     #endregion
 

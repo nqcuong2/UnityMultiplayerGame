@@ -76,6 +76,7 @@ public class Client : MonoBehaviour
             { (int)ServerPackets.SendChatMsg, ClientHandle.ReceiveChatMsg },
             { (int)ServerPackets.SpawnPlayer, ClientHandle.SpawnPlayer },
             { (int)ServerPackets.PlayerPosition, ClientHandle.PlayerPosition },
+            { (int)ServerPackets.SpawnBomb, ClientHandle.SpawnBomb },
         };
         Debug.Log("Initialized packets.");
     }

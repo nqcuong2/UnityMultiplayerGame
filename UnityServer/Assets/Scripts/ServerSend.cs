@@ -45,6 +45,16 @@
             SendUDPDataToAll(packet);
         }
     }
+
+    public static void SpawnBomb(int exceptClient, Vector2 pos)
+    {
+        using (Packet packet = new Packet((int)ServerPackets.SpawnBomb))
+        {
+            packet.Write(exceptClient);
+            packet.Write(pos);
+            SendTCPDataToAllExcept(exceptClient, packet);
+        }
+    }
     #endregion
 
     #region TCP

@@ -41,4 +41,11 @@ public class ClientHandle : MonoBehaviour
 
         GameManager.players[id].transform.position = position;
     }
+
+    public static void SpawnBomb(Packet packet)
+    {
+        int owner = packet.ReadInt();
+        Vector2 position = packet.ReadVector2();
+        GameManager.Instance.SpawnBomb(owner, position);
+    }
 }

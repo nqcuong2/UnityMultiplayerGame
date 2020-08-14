@@ -13,7 +13,7 @@ public class ServerHandle
         // Should not occur otherwise sth goes wrong
         if (fromClient != clientIdCheck)
         {
-            Debug.Log($"Plaer \"{username}\" (ID: {fromClient}) has assumed the wrong client ID ({clientIdCheck})!");
+            Debug.Log($"Player \"{username}\" (ID: {fromClient}) has assumed the wrong client ID ({clientIdCheck})!");
         }
 
         Server.clients[fromClient].SendIntoGame(username);
@@ -35,5 +35,12 @@ public class ServerHandle
         }
 
         Server.clients[fromClient].player.SetInput(inputs);
+    }
+
+    public static void SpawnBomb(int fromClient, Packet packet)
+    {
+        int clientIdCheck = packet.ReadInt();
+        Vector2 pos = packet.ReadVector2();
+        ServerSend.SpawnBomb(fromClient, pos);
     }
 }

@@ -46,6 +46,7 @@ public class Server
                 { (int)ClientPackets.WelcomeReceived, ServerHandle.WelcomeReceived },
                 { (int)ClientPackets.SendChatMsg, ServerHandle.ReceiveChatMsg },
                 { (int)ClientPackets.PlayerMovement, ServerHandle.PlayerMovement },
+                { (int)ClientPackets.SpawnBomb, ServerHandle.SpawnBomb },
             };
         Debug.Log("Initialized packets");
     }

@@ -40,6 +40,17 @@ public class ClientSend : MonoBehaviour
             SendUDPData(packet);
         }
     }
+
+    public static void SpawnBomb(Vector2 pos)
+    {
+        using (Packet packet = new Packet((int)ClientPackets.SpawnBomb))
+        {
+            packet.Write(Client.Instance.myId);
+            packet.Write(pos);
+
+            SendTCPData(packet);
+        }
+    }
     #endregion
 
     private static void SendTCPData(Packet packet)

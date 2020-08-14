@@ -51,19 +51,28 @@ public class GameManager : MonoBehaviour
 
     public void SpawnMyBomb()
     {
-        if (myPlayer.PlacedBombs < myPlayer.MaxBombs)
+        if (myPlayer.PlacedBombs < myPlayer.MaxBombs && SpawnBomb(myPlayer.ID, myPlayer.transform.position))
         {
-            int rowIndex = (int)(Math.Round(Math.Abs(myPlayer.transform.position.y - bombYOrigin) / BOMB_Y_OFFSET));
-            int colIndex = (int)(Math.Round((myPlayer.transform.position.x - bombXOrigin) / BOMB_X_OFFSET)); 
-            if (bombMap[rowIndex, colIndex] == null)
-            {
-                var bomb = Instantiate(bombPrefab);
-                bomb.transform.position = new Vector2(bombXOrigin + colIndex * BOMB_X_OFFSET, bombYOrigin - rowIndex * BOMB_Y_OFFSET);
-                bomb.GetComponent<Bomb>().OwnerID = myPlayer.ID;
-                myPlayer.PlacedBombs++;
-                bombMap[rowIndex, colIndex] = bomb;
-            }
+            myPlayer.PlacedBombs++;
+            ClientSend.SpawnBomb(myPlayer.transform.position);
         }
+    }
+
+    public bool SpawnBomb(int owner, Vector2 pos)
+    {
+        int rowIndex = (int)(Math.Round(Math.Abs(pos.y - bombYOrigin) / BOMB_Y_OFFSET));
+        int colIndex = (int)(Math.Round((pos.x - bombXOrigin) / BOMB_X_OFFSET));
+        if (bombMap[rowIndex, colIndex] == null)
+        {
+            var bomb = Instantiate(bombPrefab);
+            bomb.transform.position = new Vector2(bombXOrigin + colIndex * BOMB_X_OFFSET, bombYOrigin - rowIndex * BOMB_Y_OFFSET);
+            bomb.GetComponent<Bomb>().OwnerID = owner;
+            bombMap[rowIndex, colIndex] = bomb;
+
+            return true;
+        }
+
+        return false;
     }
 
     public void BombExploded(GameObject explodedBomb)
