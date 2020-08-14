@@ -46,6 +46,10 @@ public class GameManager : MonoBehaviour
 
     public void SpawnGameMap()
     {
+        if (currStage != null)
+        {
+            Destroy(currStage);
+        }
         currStage = Instantiate(stagePrefab);
     }
 
@@ -125,7 +129,7 @@ public class GameManager : MonoBehaviour
     {
         ThreadManager.ExecuteOnMainThread(() =>
         {
-            Destroy(currStage);
+            currStage.SetActive(false);
             foreach (PlayerManager playerManager in players.Values)
             {
                 Destroy(playerManager.gameObject);
