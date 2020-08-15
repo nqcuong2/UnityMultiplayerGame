@@ -68,10 +68,13 @@ public class GameManager : MonoBehaviour
         int colIndex = (int)(Math.Round((pos.x - bombXOrigin) / BOMB_X_OFFSET));
         if (bombMap[rowIndex, colIndex] == null)
         {
-            var bomb = Instantiate(bombPrefab);
-            bomb.transform.position = new Vector2(bombXOrigin + colIndex * BOMB_X_OFFSET, bombYOrigin - rowIndex * BOMB_Y_OFFSET);
-            bomb.GetComponent<Bomb>().OwnerID = owner;
-            bombMap[rowIndex, colIndex] = bomb;
+            var bombObj = Instantiate(bombPrefab);
+            bombObj.transform.position = new Vector2(bombXOrigin + colIndex * BOMB_X_OFFSET, bombYOrigin - rowIndex * BOMB_Y_OFFSET);
+            Bomb bomb = bombObj.GetComponent<Bomb>();
+            bomb.ownerID = owner;
+            bomb.row = rowIndex;
+            bomb.col = colIndex;
+            bombMap[rowIndex, colIndex] = bombObj;
 
             return true;
         }
@@ -79,23 +82,12 @@ public class GameManager : MonoBehaviour
         return false;
     }
 
-    public void BombExploded(GameObject explodedBomb)
+    public void BombExploded(Bomb explodedBomb)
     {
-        for (int row = 0; row < bombMap.GetLength(0); row++)
+        bombMap[explodedBomb.row, explodedBomb.col] = null;
+        if (explodedBomb.ownerID == myPlayer.ID)
         {
-            for (int col = 0; col < bombMap.GetLength(1); col++)
-            {
-                if (bombMap[row, col] == explodedBomb)
-                {
-                    if (explodedBomb.GetComponent<Bomb>().OwnerID == myPlayer.ID)
-                    {
-                        myPlayer.PlacedBombs--;
-                    }
-
-                    bombMap[row, col] = null;
-                    return;
-                }
-            }
+            myPlayer.PlacedBombs--;
         }
     }
 

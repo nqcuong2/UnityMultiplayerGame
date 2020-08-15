@@ -4,8 +4,15 @@ using UnityEngine;
 
 public class Bomb : MonoBehaviour
 {
-    public int OwnerID { get; set; }
-    public int Length { get; set; }
+    public int ownerID;
+    public int row;
+    public int col;
+    public int length;
+
+    private void Awake()
+    {
+        length = 2;
+    }
 
     private void Start()
     {
@@ -16,7 +23,7 @@ public class Bomb : MonoBehaviour
     {
         yield return new WaitForSeconds(3);
         Debug.Log("Boom!");
-        GameManager.Instance.BombExploded(gameObject);
+        GameManager.Instance.BombExploded(this);
         Destroy(gameObject);
     }
 }

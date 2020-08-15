@@ -98,7 +98,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ID: 0
   UserName: 
-  MaxBombs: 1
+  MaxBombs: 2
   PlacedBombs: 0
 --- !u!114 &982424149794396228
 MonoBehaviour:
