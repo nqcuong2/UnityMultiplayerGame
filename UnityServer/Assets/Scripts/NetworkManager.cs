@@ -9,7 +9,7 @@ public class NetworkManager : MonoBehaviour
 
     public GameObject playerPrefab;
 
-    private int nextPlayerIndex = 0;
+    private List<int> avatarIndices = new List<int> { 0, 1, 2, 3 };
     private Vector2[] playerPositions =
     {
         new Vector2(-8.2994f, 4.437201f),
@@ -39,6 +39,20 @@ public class NetworkManager : MonoBehaviour
         Server.Start(4, 26950);
     }
 
+    public void AddAvatarBackToPool(int avatarIndex)
+    {
+        for (int i = 0; i < avatarIndices.Count; i++)
+        {
+            if (avatarIndices[i] > avatarIndex)
+            {
+                avatarIndices.Insert(i == 0 ? 0 : i, avatarIndex);
+                return;
+            }
+        }
+
+        avatarIndices.Add(avatarIndex);
+    }
+
     private void OnApplicationQuit()
     {
         Server.Stop();
@@ -46,8 +60,10 @@ public class NetworkManager : MonoBehaviour
 
     public Player InstantiatePlayer()
     {
-        Player player = Instantiate(playerPrefab, playerPositions[nextPlayerIndex], Quaternion.identity).GetComponent<Player>();
-        player.avatar = nextPlayerIndex++;
+        int avatarIndex = avatarIndices[0];
+        avatarIndices.RemoveAt(0);
+        Player player = Instantiate(playerPrefab, playerPositions[avatarIndex], Quaternion.identity).GetComponent<Player>();
+        player.avatar = avatarIndex;
         return player;
     }
 }

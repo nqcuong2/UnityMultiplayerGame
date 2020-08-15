@@ -132,7 +132,9 @@ public class Server
     {
         foreach (Client client in clients.Values)
         {
-            if (client.player != null)
+            // No need to disconnect same-network clients as they will
+            // automatically disconnect with the  server
+            if (client.player != null && !client.IsLocalClient())
             {
                 client.Disconnect();
             }

@@ -61,6 +61,15 @@ public class Client
         udp.Disconnect();
     }
 
+    public bool IsLocalClient()
+    {
+        String endpoint = tcp.socket.Client.RemoteEndPoint.ToString();
+        if (endpoint.Contains("127.0.0.1"))
+            return true;
+
+        return false;
+    }
+
     public class TCP
     {
         public TcpClient socket;
@@ -113,8 +122,7 @@ public class Client
                 int byteLength = stream.EndRead(result);
                 if (byteLength <= 0)
                 {
-                    Server.clients[id].Disconnect();
-                    ServerSend.PlayerDisconnect(id);
+                    RemoveClient();
 
                     return;
                 }
@@ -128,9 +136,15 @@ public class Client
             catch (Exception e)
             {
                 Debug.Log($"Error receiving TCP data: {e}");
-                Server.clients[id].Disconnect();
-                ServerSend.PlayerDisconnect(id);
+                RemoveClient();
             }
+        }
+
+        private void RemoveClient()
+        {
+            NetworkManager.Instance.AddAvatarBackToPool(Server.clients[id].player.avatar);
+            Server.clients[id].Disconnect();
+            ServerSend.PlayerDisconnect(id);
         }
 
         private bool HandleData(byte[] data)
